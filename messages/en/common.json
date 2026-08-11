@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "titleSuffix": "Investment Management Company",
+    "description": "HAMRI CAPITAL is a leading Investment Management Company offering asset management, wealth management, hedge funds, private equity, venture capital, investment banking, real estate funds and REITs, financial engineering, business development and construction."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "industries": "Industries",
+    "community": "The Community",
+    "careers": "Internships & Careers",
+    "advice": "Request Advice",
+    "contact": "Contact",
+    "resources": "Resources",
+    "menu": "Menu",
+    "close": "Close",
+    "language": "Language"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Investment Management Company",
+      "title": "Create Your Boat and Join Our Journey",
+      "subtitle": "HAMRI CAPITAL is a leading Investment Management Company delivering a comprehensive range of investment solutions across continents — from asset management and private equity to real estate, agriculture and public works.",
+      "primaryCta": "Explore our divisions",
+      "secondaryCta": "Request advice"
+    },
+    "intro": {
+      "eyebrow": "Your Partner in Investment Excellence",
+      "title": "A comprehensive range of investment solutions",
+      "body": "HAMRI CAPITAL Limited Liability Company offers Asset Management, Wealth Management, Hedge Funds, Private Equity, Venture Capital, Investment Banking, Real Estate Funds and Real Estate Investment Trusts, as well as expertise in Financial Engineering, Business Development, and Construction Work, Building and Public Works.",
+      "discover": "Discover how HAMRI CAPITAL can help you achieve your financial goals."
+    },
+    "pillars": {
+      "vision": {
+        "label": "Our Vision",
+        "text": "Building a world-class team and a culture of excellence to deliver exceptional results."
+      },
+      "mission": {
+        "label": "Our Mission",
+        "text": "Connecting clients and communities to the resources they need to succeed, improving financial lives through access and opportunity."
+      },
+      "partnerships": {
+        "label": "Our Partnerships",
+        "text": "We have signed partnership agreements with several Canadian, American, and Moroccan companies, providing us with a global network of expertise and resources."
+      },
+      "commitment": {
+        "label": "Our Commitment",
+        "text": "At HAMRI CAPITAL, we are committed to delivering exceptional investment performance, outstanding client service, and unwavering integrity. We believe in building long-term relationships with our clients, founded on trust, transparency, and mutual respect."
+      }
+    },
+    "quote": {
+      "eyebrow": "A word from our CEO",
+      "text": "When I think about the future of economics and finance, I see a horizon filled with innovation, but also one that demands a long-term, responsible vision. At HAMRI CAPITAL, across our Asset Management, Wealth Management, Hedge Funds, Private Equity, Venture Capital, and Investment Banking divisions, we're not just reacting to trends; we're actively shaping them. We're investing in technologies and ideas that will redefine the financial landscape. But, and this is crucial, we must do so with a deep understanding of our role in building a sustainable and inclusive future. We must remember that behind every investment, every algorithm, there are real people. And it's our responsibility to ensure that the future we're building is one that benefits us all.",
+      "author": "Omar Hamri",
+      "role": "CEO, HAMRI CAPITAL"
+    },
+    "stats": {
+      "title": "HAMRI CAPITAL at a glance",
+      "divisions": "Divisions",
+      "industries": "Industries covered",
+      "countries": "Partnership countries",
+      "values": "Core values"
+    },
+    "divisionsSection": {
+      "eyebrow": "Our Divisions",
+      "title": "Sixteen divisions, one integrated approach",
+      "body": "Each division operates with its own expertise and delivery team, coordinated under a single investment philosophy.",
+      "viewAll": "View all divisions"
+    },
+    "industriesSection": {
+      "eyebrow": "Industries",
+      "title": "Operating across the real economy",
+      "body": "HAMRI CAPITAL operates across a wide range of industries, from agriculture and aviation to artificial intelligence and renewable energy.",
+      "viewAll": "See all industries"
+    },
+    "cta": {
+      "title": "Ready to start the conversation?",
+      "body": "Tell us about your objectives and our team will come back to you.",
+      "button": "Request advice"
+    }
+  },
+  "about": {
+    "eyebrow": "About HAMRI CAPITAL",
+    "title": "Your Partner in Investment Excellence",
+    "intro": "HAMRI CAPITAL Limited Liability Company is a leading Investment Management Company that offers a comprehensive range of investment solutions, as well as expertise in financial engineering, business development, and construction work, building and public works.",
+    "valuesTitle": "Our Values",
+    "valuesIntro": "At HAMRI CAPITAL, we are driven by four core values that underpin our unwavering commitment to excellence:",
+    "values": {
+      "clientService": {
+        "title": "Unrivaled Client Service",
+        "text": "We set the standard for exceptional client experiences, delivering innovative solutions that surpass expectations."
+      },
+      "excellence": {
+        "title": "Uncompromising Excellence",
+        "text": "We strive for perfection in everything we do, producing outstanding results that drive success for our clients, shareholders, and business."
+      },
+      "integrity": {
+        "title": "Unshakeable Integrity",
+        "text": "We operate with unyielding transparency, ethics, and accountability, upholding the highest standards of integrity and trust."
+      },
+      "teamwork": {
+        "title": "Unbeatable Teamwork",
+        "text": "We foster a culture of collaboration, inclusivity, and entrepreneurship, harnessing the power of diversity to drive innovation and success."
+      }
+    }
+  },
+  "industries": {
+    "eyebrow": "Industries",
+    "title": "Where we operate",
+    "intro": "HAMRI CAPITAL operates across a wide range of industries, bringing investment expertise to the businesses that build the real economy.",
+    "list": [
+      "Agriculture",
+      "Automobile",
+      "Aviation",
+      "Banking and Finance",
+      "Construction",
+      "Energy",
+      "Entertainment",
+      "Healthcare",
+      "Hospitality",
+      "Information Technology (IT)",
+      "Manufacturing",
+      "Media",
+      "Real Estate",
+      "Retail",
+      "Telecommunications",
+      "Tourism",
+      "Transportation",
+      "Waste Management",
+      "Water and Sewerage",
+      "Education",
+      "Environmental",
+      "Financial Technology (FinTech)",
+      "Health Technology (HealthTech)",
+      "Cybersecurity",
+      "Renewable Energy",
+      "E-commerce",
+      "Digital Marketing",
+      "Logistics and Supply Chain",
+      "Artificial Intelligence"
+    ]
+  },
+  "services": {
+    "eyebrow": "Our Services",
+    "title": "Divisions",
+    "intro": "A comprehensive and integrated range of investment solutions, delivered by dedicated teams.",
+    "servicesGroup": "Investment & advisory divisions",
+    "editorialGroup": "Markets explained",
+    "editorialNote": "Educational content. For these markets we point you to the platforms and exchanges listed in our Resources page rather than offering a direct service.",
+    "executiveSummary": "Executive Summary",
+    "conclusion": "Conclusion",
+    "relatedLinks": "Useful links for this topic"
+  },
+  "community": {
+    "eyebrow": "VIP Business Club",
+    "title": "The HAMRI CAPITAL Community",
+    "comingSoon": "Coming soon",
+    "intro": "A space being built around four pillars — Networking, Mentoring, Training and Sponsoring — for those who want to create their boat and join the journey.",
+    "pillars": {
+      "networking": "Networking",
+      "mentoring": "Mentoring",
+      "training": "Training",
+      "sponsoring": "Sponsoring"
+    },
+    "notifyTitle": "Be notified at launch",
+    "notifyBody": "Leave your email address and we will let you know as soon as the Community opens."
+  },
+  "footer": {
+    "company": "Company",
+    "connect": "Connect With Us",
+    "usefulLinks": "Useful Links",
+    "partners": "Our Partners",
+    "ceoTitle": "CEO, HAMRI CAPITAL",
+    "rights": "All rights reserved.",
+    "legal": "Legal Notice",
+    "privacy": "Privacy Policy"
+  },
+  "common": {
+    "requestService": "Request this service",
+    "learnMore": "Learn more",
+    "submit": "Submit",
+    "sending": "Sending…",
+    "backToServices": "Back to all divisions",
+    "comingSoon": "Coming soon"
+  }
+}

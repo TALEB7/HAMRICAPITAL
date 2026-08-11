@@ -1,26 +1,163 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ============================================================
+   HAMRI CAPITAL — Design System
+   Thème sombre institutionnel, accent rouge (bateau du logo),
+   or/jaune réservé aux éléments "data".
+   ============================================================ */
+
+@theme {
+  /* --- Fonds --- */
+  --color-ink: #06070a; /* fond principal, noir profond */
+  --color-surface: #0d0f14; /* sections alternées */
+  --color-elevated: #151821; /* cards, encadrés */
+  --color-hairline: #232733; /* bordures fines */
+
+  /* --- Texte --- */
+  --color-bright: #f6f7f9; /* titres */
+  --color-body: #c7ccd6; /* corps de texte */
+  --color-muted: #8a91a0; /* légendes, labels */
+
+  /* --- Accent rouge (identité HAMRI) --- */
+  --color-brand: #c8102e;
+  --color-brand-hot: #e63946; /* hover / états actifs */
+  --color-brand-deep: #7a0a1c; /* dégradés, ombres */
+
+  /* --- Or : chiffres clés, tickers, graphiques --- */
+  --color-data: #d4af37;
+  --color-data-soft: #f0c75e;
+
+  /* --- Signaux marché (ticker) --- */
+  --color-up: #21c07a;
+  --color-down: #e5484d;
+
+  /* --- Typographie --- */
+  --font-display: var(--font-playfair), "Times New Roman", serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-arabic: var(--font-noto-arabic), var(--font-inter), sans-serif;
+
+  /* --- Rythme --- */
+  --spacing-section: 6rem;
+
+  /* --- Animations --- */
+  --animate-ticker: ticker 45s linear infinite;
+  --animate-fade-up: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes ticker {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
   }
 }
 
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(1.25rem);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ============================================================
+   Base
+   ============================================================ */
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-ink);
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-ink);
+  color: var(--color-body);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* L'arabe utilise sa propre pile typographique et s'aligne à droite. */
+:lang(ar) body,
+[dir="rtl"] body {
+  font-family: var(--font-arabic);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  color: var(--color-bright);
+  letter-spacing: -0.01em;
+}
+
+/* Le ticker et les chiffres clés s'alignent en chiffres tabulaires. */
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+::selection {
+  background-color: var(--color-brand);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-data);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ============================================================
+   Primitives réutilisables
+   ============================================================ */
+
+@utility container-hc {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 80rem;
+  padding-inline: 1.25rem;
+
+  @media (width >= 768px) {
+    padding-inline: 2rem;
+  }
+}
+
+/* Filet rouge décoratif sous les titres de section. */
+@utility rule-brand {
+  &::after {
+    content: "";
+    display: block;
+    width: 3.5rem;
+    height: 2px;
+    margin-block-start: 1rem;
+    background: linear-gradient(
+      90deg,
+      var(--color-brand),
+      var(--color-brand-deep)
+    );
+  }
+}
+
+/* Étiquette majuscule fine au-dessus des titres. */
+@utility eyebrow {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-data);
 }

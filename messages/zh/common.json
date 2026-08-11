@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "titleSuffix": "投资管理公司",
+    "description": "HAMRI CAPITAL 是一家投资管理公司，业务涵盖资产管理、财富管理、对冲基金、私募股权、风险投资、投资银行与房地产。"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "services": "服务",
+    "industries": "行业",
+    "community": "社群",
+    "careers": "实习与招聘",
+    "advice": "咨询申请",
+    "contact": "联系我们",
+    "resources": "资源",
+    "menu": "菜单",
+    "close": "关闭",
+    "language": "语言"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "投资管理公司",
+      "title": "打造您的航船，与我们同行",
+      "subtitle": "HAMRI CAPITAL 在多个大洲构建、募集并管理资本——从资产管理与私募股权，到房地产、农业与基础设施。"
+    }
+  },
+  "footer": {
+    "company": "公司",
+    "ceoTitle": "HAMRI CAPITAL 首席执行官",
+    "connect": "关注我们",
+    "usefulLinks": "实用链接",
+    "partners": "合作伙伴",
+    "departments": "部门",
+    "rights": "版权所有。",
+    "legal": "法律声明",
+    "privacy": "隐私政策"
+  },
+  "common": {
+    "requestService": "申请此项服务",
+    "learnMore": "了解更多",
+    "submit": "提交",
+    "sending": "发送中…",
+    "comingSoon": "即将推出"
+  }
+}
