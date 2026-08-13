@@ -176,6 +176,20 @@
     "legal": "Legal Notice",
     "privacy": "Privacy Policy"
   },
+  "notFound": {
+    "eyebrow": "Error 404",
+    "title": "This page has left port",
+    "body": "The address you followed does not lead anywhere on this site. It may have changed, or the link may be incomplete.",
+    "cta": "Back to home",
+    "services": "See our divisions"
+  },
+  "error": {
+    "eyebrow": "Unexpected error",
+    "title": "Something went wrong on our side",
+    "body": "The page could not be displayed. Please try again — if the problem persists, let us know through the contact form.",
+    "retry": "Try again",
+    "cta": "Back to home"
+  },
   "careers": {
     "eyebrow": "Internships & Careers",
     "title": "Build your boat with us",

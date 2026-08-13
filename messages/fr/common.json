@@ -176,6 +176,20 @@
     "legal": "Mentions légales",
     "privacy": "Politique de confidentialité"
   },
+  "notFound": {
+    "eyebrow": "Erreur 404",
+    "title": "Cette page a quitté le port",
+    "body": "L'adresse que vous avez suivie ne mène nulle part sur ce site. Elle a peut-être changé, ou le lien est incomplet.",
+    "cta": "Retour à l'accueil",
+    "services": "Voir nos divisions"
+  },
+  "error": {
+    "eyebrow": "Erreur inattendue",
+    "title": "Un problème est survenu de notre côté",
+    "body": "La page n'a pas pu s'afficher. Réessayez — si le problème persiste, signalez-le nous via le formulaire de contact.",
+    "retry": "Réessayer",
+    "cta": "Retour à l'accueil"
+  },
   "careers": {
     "eyebrow": "Stages & Carrières",
     "title": "Construisez votre bateau avec nous",
