@@ -1,95 +1,1323 @@
 {
   "assetManagement": {
-    "title": "Asset Management",
-    "cta": "Demander une offre en Asset Management",
+    "title": "Gestion d'Actifs",
+    "cta": "Demander un accompagnement en Gestion d'Actifs",
     "tagline": "Une approche complète et intégrée pour faire croître le patrimoine dans la durée.",
-    "summary": "L'Asset Management est une discipline spécialisée : le processus systématique d'achat, de vente et de gestion d'investissements destiné à accroître le patrimoine dans le temps, en tenant compte de la tolérance au risque et des objectifs de chaque client. Nos services offrent aux clients institutionnels et particuliers une approche complète et intégrée de la gestion de leurs investissements."
+    "summary": "La gestion d'actifs consiste à acheter, vendre et gérer des investissements de façon méthodique pour faire croître le patrimoine dans le temps, toujours en cohérence avec la tolérance au risque et les objectifs de chaque client. Notre équipe accompagne particuliers, entités publiques, entreprises et investisseurs institutionnels avec un processus rigoureux et fondé sur la recherche.",
+    "sections": [
+      {
+        "heading": "Définition et périmètre",
+        "intro": "Nos services de gestion d'actifs couvrent un large éventail d'activités, notamment :",
+        "items": [
+          {
+            "term": "Sélection des investissements",
+            "text": "Choisir les investissements un à un : actions, obligations et actifs alternatifs."
+          },
+          {
+            "term": "Construction de portefeuille",
+            "text": "Bâtir des portefeuilles diversifiés, adaptés aux besoins et objectifs de chaque client."
+          },
+          {
+            "term": "Gestion des risques",
+            "text": "Identifier et atténuer les risques susceptibles d'affecter les actifs du client."
+          },
+          {
+            "term": "Suivi de la performance",
+            "text": "Suivre et évaluer régulièrement la performance du portefeuille."
+          },
+          {
+            "term": "Rééquilibrage",
+            "text": "Rééquilibrer périodiquement les portefeuilles pour rester aligné sur les objectifs du client."
+          }
+        ]
+      },
+      {
+        "heading": "Bénéfices",
+        "intro": "En travaillant avec notre équipe de Gestion d'Actifs, nos clients bénéficient de :",
+        "items": [
+          {
+            "term": "Expertise",
+            "text": "L'accès à des professionnels de l'investissement expérimentés, au parcours éprouvé."
+          },
+          {
+            "term": "Personnalisation",
+            "text": "Des solutions d'investissement sur mesure, conçues pour les besoins propres à chaque client."
+          },
+          {
+            "term": "Gestion proactive du risque",
+            "text": "Une gestion du risque anticipative, qui protège les actifs et préserve l'alignement avec les objectifs du client."
+          },
+          {
+            "term": "Simplicité",
+            "text": "Confier la gestion à des professionnels expérimentés, et libérer du temps pour le reste."
+          }
+        ]
+      },
+      {
+        "heading": "Clientèles cibles",
+        "intro": "Nos services de Gestion d'Actifs répondent aux besoins spécifiques de :",
+        "items": [
+          {
+            "term": "Particuliers",
+            "text": "Particuliers fortunés et clients privés à la recherche de solutions d'investissement personnalisées."
+          },
+          {
+            "term": "Entités publiques",
+            "text": "Agences gouvernementales, fonds de pension et autres institutions publiques ayant besoin d'une expertise en gestion d'investissement."
+          },
+          {
+            "term": "Entreprises",
+            "text": "Sociétés et groupes cherchant des solutions d'investissement au service de leurs objectifs."
+          },
+          {
+            "term": "Investisseurs institutionnels",
+            "text": "Compagnies d'assurance, dotations, fondations et autres investisseurs institutionnels nécessitant des solutions sur mesure."
+          }
+        ]
+      },
+      {
+        "heading": "Notre philosophie d'investissement",
+        "intro": "Notre philosophie d'investissement repose sur les principes suivants :",
+        "items": [
+          {
+            "term": "Approche centrée sur le client",
+            "text": "Nous plaçons les besoins et objectifs du client au premier plan, avec des solutions sur mesure."
+          },
+          {
+            "term": "Processus d'investissement rigoureux",
+            "text": "Un processus systématique et reproductible, gage de constance et de fiabilité."
+          },
+          {
+            "term": "Gestion des risques",
+            "text": "Nous gérons le risque de manière anticipative, pour protéger les actifs du client et rester alignés sur ses objectifs."
+          }
+        ]
+      },
+      {
+        "heading": "Responsabilité fiduciaire",
+        "intro": "En tant que gestionnaires d'actifs, nous avons une responsabilité fiduciaire envers nos clients, qui nous impose de :",
+        "items": [
+          {
+            "term": "Agir de bonne foi",
+            "text": "Décider au nom du client avec honnêteté, intégrité et transparence."
+          },
+          {
+            "term": "Priorité aux intérêts du client",
+            "text": "Agir dans l'intérêt du client, avant le nôtre ou celui de notre société."
+          },
+          {
+            "term": "Diligence raisonnable",
+            "text": "Décider en connaissance de cause, sur la base d'une recherche, d'une analyse et d'une expertise approfondies."
+          }
+        ]
+      }
+    ],
+    "conclusion": "Nos services de Gestion d'Actifs offrent à nos clients une approche complète et intégrée de leurs investissements. Un processus rigoureux, fondé sur la recherche, et un engagement fiduciaire sans faille nous permettent de délivrer des rendements optimaux et de bâtir des relations de long terme."
   },
+
   "wealthManagement": {
     "title": "Gestion de Patrimoine",
     "cta": "Demander un accompagnement en Gestion de Patrimoine",
     "tagline": "Une approche complète et personnalisée de l'excellence financière.",
-    "summary": "La Gestion de Patrimoine est un service de conseil en investissement sophistiqué, conçu pour répondre aux besoins financiers complexes des particuliers et familles fortunés. Notre équipe s'appuie sur une expertise en gestion d'investissement, planification financière, protection du patrimoine et services fiscaux et comptables."
+    "summary": "Un service de conseil sophistiqué et personnalisé destiné aux particuliers et familles fortunés, combinant gestion d'investissement, planification financière, protection du patrimoine et services fiscaux/comptables au sein d'une stratégie unique et globale.",
+    "sections": [
+      {
+        "heading": "Définition et périmètre",
+        "intro": "La Gestion de Patrimoine est un service financier global, qui couvre notamment :",
+        "items": [
+          {
+            "term": "Gestion d'investissement",
+            "text": "Gestion de portefeuille, allocation d'actifs et sélection de titres."
+          },
+          {
+            "term": "Planification financière",
+            "text": "Préparation de la retraite, transmission, optimisation fiscale et couverture assurantielle."
+          },
+          {
+            "term": "Protection du patrimoine",
+            "text": "Gestion des risques, protection des actifs et gestion du passif."
+          },
+          {
+            "term": "Services fiscaux et comptables",
+            "text": "Optimisation, préparation et conformité fiscales, ainsi que comptabilité et tenue de livres."
+          }
+        ]
+      },
+      {
+        "heading": "Processus",
+        "intro": "Notre équipe procède par un dialogue approfondi, pour comprendre la situation, les objectifs et les contraintes de chaque client :",
+        "items": [
+          {
+            "term": "Collecte des données financières",
+            "text": "Réunir les informations de revenus, dépenses, actifs, passifs et flux de trésorerie."
+          },
+          {
+            "term": "Définition des objectifs",
+            "text": "Identifier et hiérarchiser les objectifs du client : retraite, transmission ou cession de patrimoine."
+          },
+          {
+            "term": "Évaluation de la tolérance au risque",
+            "text": "Mesurer la tolérance au risque du client et sa capacité à absorber les fluctuations de marché."
+          },
+          {
+            "term": "Stratégie personnalisée",
+            "text": "Bâtir, à partir des éléments réunis, une stratégie sur mesure alignée sur les objectifs du client."
+          }
+        ]
+      },
+      {
+        "heading": "Une approche globale",
+        "intro": "Nos services répondent aux besoins complexes des particuliers et familles fortunés :",
+        "items": [
+          {
+            "term": "Gestion de trésorerie",
+            "text": "Pilotage des flux, budget et gestion de la liquidité."
+          },
+          {
+            "term": "Transmission",
+            "text": "Rédaction testamentaire, création de trusts et anticipation des procédures successorales."
+          },
+          {
+            "term": "Préparation de la retraite",
+            "text": "Gestion des comptes retraite, planification des pensions et optimisation des droits."
+          },
+          {
+            "term": "Services fiscaux",
+            "text": "Optimisation, préparation et conformité fiscales, ainsi que gestion des contentieux."
+          }
+        ]
+      },
+      {
+        "heading": "Structure tarifaire et clientèles cibles",
+        "intro": "Notre tarification est transparente, basée sur les actifs sous gestion (AUM) — nos intérêts sont alignés avec les vôtres.",
+        "items": [
+          {
+            "term": "Particuliers fortunés",
+            "text": "Personnes disposant d'un patrimoine significatif et de besoins financiers complexes."
+          },
+          {
+            "term": "Besoins financiers diversifiés",
+            "text": "Clients requérant un large éventail de services : transmission, comptabilité, retraite et fiscalité."
+          }
+        ]
+      }
+    ],
+    "conclusion": "Nos services de Gestion de Patrimoine offrent aux particuliers et familles fortunés une approche complète et intégrée de leur patrimoine. Une équipe de professionnels expérimentés et une tarification transparente nous permettent d'associer performance d'investissement et service véritablement personnalisé."
   },
+
   "hedgeFunds": {
-    "title": "Hedge Funds",
+    "title": "Hedge Funds (Fonds Spéculatifs)",
     "cta": "Demander un accès aux Hedge Funds",
     "tagline": "Une recherche de rendement absolu pour investisseurs institutionnels et particuliers fortunés.",
-    "summary": "Les Hedge Funds sont des véhicules d'investissement privés qui mutualisent les capitaux d'investisseurs institutionnels et de particuliers fortunés afin de générer des rendements absolus, quelles que soient les conditions de marché. Un hedge fund est une société en commandite d'investisseurs privés dont les fonds sont gérés par des gestionnaires professionnels."
+    "summary": "Véhicules d'investissement privés regroupant les capitaux d'investisseurs institutionnels et de particuliers fortunés, visant des rendements absolus quelles que soient les conditions de marché. Un hedge fund est une société en commandite d'investisseurs privés, dont les capitaux sont mutualisés et gérés par des gestionnaires professionnels.",
+    "sections": [
+      {
+        "heading": "Stratégies",
+        "intro": "Les hedge funds mobilisent un éventail de stratégies pour atteindre leurs objectifs :",
+        "items": [
+          {
+            "term": "Long-Short Equity",
+            "text": "Prendre des positions acheteuses sur des titres sous-évalués et vendeuses sur des titres surévalués."
+          },
+          {
+            "term": "Macro Globale",
+            "text": "Se positionner sur les grandes tendances et les événements macroéconomiques."
+          },
+          {
+            "term": "Event-Driven",
+            "text": "Investir dans des sociétés traversant un événement majeur, comme une fusion ou une acquisition."
+          },
+          {
+            "term": "Investissement Activiste",
+            "text": "Prendre un rôle actif dans l'orientation stratégique d'une société."
+          }
+        ]
+      },
+      {
+        "heading": "Bénéfices",
+        "intro": "Les hedge funds apportent aux investisseurs institutionnels et particuliers fortunés :",
+        "items": [
+          {
+            "term": "Diversification",
+            "text": "Une exposition à des classes d'actifs alternatives et à des stratégies non traditionnelles."
+          },
+          {
+            "term": "Rendements absolus",
+            "text": "Un objectif de performance positive, quelles que soient les conditions de marché."
+          },
+          {
+            "term": "Gestion des risques",
+            "text": "Des stratégies de couverture destinées à limiter les pertes potentielles."
+          }
+        ]
+      },
+      {
+        "heading": "Conditions d'accès",
+        "intro": "Un investissement en hedge fund suppose généralement :",
+        "items": [
+          {
+            "term": "Statut d'investisseur qualifié",
+            "text": "Répondre aux critères financiers et de sophistication définis par les autorités de régulation."
+          },
+          {
+            "term": "Investissement minimum",
+            "text": "Un engagement minimum ou un patrimoine net généralement compris entre 100 000 $ et 10 M$ et plus."
+          }
+        ]
+      },
+      {
+        "heading": "Frais, liquidité et points de vigilance",
+        "intro": "Avant d'investir, les investisseurs institutionnels et particuliers fortunés doivent examiner attentivement :",
+        "items": [
+          {
+            "term": "Frais de gestion",
+            "text": "Frais récurrents couvrant les charges d'exploitation, généralement de 1 à 2 % des actifs sous gestion."
+          },
+          {
+            "term": "Frais de performance",
+            "text": "Frais indexés sur la performance, généralement de 10 à 20 % des profits nets."
+          },
+          {
+            "term": "Périodes de blocage",
+            "text": "Une durée minimale, souvent d'un an, pendant laquelle les parts ne peuvent être ni cédées ni rachetées."
+          },
+          {
+            "term": "Choix du gestionnaire",
+            "text": "Sélectionner un gestionnaire au parcours éprouvé et maîtrisant la stratégie visée."
+          }
+        ]
+      }
+    ],
+    "conclusion": "Les hedge funds constituent une opportunité singulière pour les investisseurs qualifiés en quête d'investissements alternatifs et de rendements potentiellement supérieurs. Les risques, les frais et les restrictions de liquidité doivent toutefois être pesés avec soin, au terme d'une due diligence approfondie et d'un échange avec un conseiller financier."
   },
+
   "privateEquity": {
-    "title": "Private Equity",
-    "cta": "Demander un entretien Private Equity",
+    "title": "Private Equity (Capital-Investissement)",
+    "cta": "Demander une consultation Private Equity",
     "tagline": "Acquérir, transformer et faire croître des entreprises pour créer de la valeur durable.",
-    "summary": "Le Private Equity est une classe d'actifs distincte : des partenariats d'investissement acquièrent et gèrent des entreprises afin de générer des rendements par une revente ultérieure ou une introduction en bourse (IPO). Les sociétés de private equity gèrent ces fonds pour le compte d'investisseurs institutionnels et accrédités."
+    "summary": "Acquisition et gestion active d'entreprises en vue de générer des rendements via une cession future ou une introduction en bourse — une classe d'actifs distincte réservée aux investisseurs institutionnels et qualifiés.",
+    "sections": [
+      {
+        "heading": "Stratégies",
+        "intro": "Les fonds de private equity déploient plusieurs stratégies d'investissement :",
+        "items": [
+          {
+            "term": "Rachat par effet de levier (LBO)",
+            "text": "Acquérir des sociétés en combinant financement par dette et apport en fonds propres."
+          },
+          {
+            "term": "Capital-développement",
+            "text": "Investir pour soutenir l'expansion, la modernisation ou la restructuration d'une entreprise."
+          },
+          {
+            "term": "Capital-risque",
+            "text": "Investir dans des sociétés en phase précoce à fort potentiel de croissance."
+          },
+          {
+            "term": "Investissement en situation de difficulté financière",
+            "text": "Investir dans des entreprises en difficulté ou en cours de restructuration."
+          }
+        ]
+      },
+      {
+        "heading": "Processus",
+        "intro": "Le processus d'investissement en private equity se déroule généralement ainsi :",
+        "items": [
+          {
+            "term": "Sourcing des opérations",
+            "text": "Identifier les opportunités d'investissement par le réseau, la recherche et les processus d'enchères."
+          },
+          {
+            "term": "Due diligence",
+            "text": "Mener une analyse approfondie de la cible sur les plans financier, opérationnel et de marché."
+          },
+          {
+            "term": "Approbation du comité d'investissement",
+            "text": "Obtenir la validation du comité d'investissement avant d'engager l'opération."
+          },
+          {
+            "term": "Gestion du portefeuille",
+            "text": "Travailler étroitement avec la direction de la société pour déployer les initiatives stratégiques et accélérer la croissance."
+          }
+        ]
+      },
+      {
+        "heading": "Stratégies de sortie",
+        "intro": "Les sociétés de private equity réalisent généralement leur investissement par :",
+        "items": [
+          {
+            "term": "Introduction en bourse (IPO)",
+            "text": "Coter la société du portefeuille sur un marché réglementé."
+          },
+          {
+            "term": "Cession stratégique",
+            "text": "Céder la société à un acquéreur industriel."
+          },
+          {
+            "term": "Cession secondaire",
+            "text": "Céder la société à un autre fonds de private equity."
+          }
+        ]
+      },
+      {
+        "heading": "Bénéfices et risques",
+        "intro": "Le private equity offre un potentiel de rendement élevé et un effet de diversification, mais comporte des risques spécifiques :",
+        "items": [
+          {
+            "term": "Potentiel de rendement élevé",
+            "text": "Des rendements susceptibles de dépasser ceux des marchés cotés traditionnels."
+          },
+          {
+            "term": "Diversification",
+            "text": "Un effet de diversification appréciable au sein d'un portefeuille classique."
+          },
+          {
+            "term": "Illiquidité",
+            "text": "Des investissements peu liquides : les parts ne se revendent pas facilement."
+          },
+          {
+            "term": "Engagement minimum élevé",
+            "text": "Des tickets d'entrée souvent importants."
+          }
+        ]
+      }
+    ],
+    "conclusion": "Le private equity permet aux investisseurs institutionnels et qualifiés d'accéder à une classe d'actifs à part. S'il offre des rendements élevés et un effet de diversification, il s'accompagne d'une illiquidité et d'engagements minimums importants : il s'adresse donc à des investisseurs avertis, capables d'immobiliser des capitaux significatifs."
   },
+
   "ventureCapital": {
-    "title": "Capital-Risque",
-    "cta": "Présenter votre startup",
+    "title": "Capital-Risque (Venture Capital)",
+    "cta": "Présenter votre start-up",
     "tagline": "Financer les entreprises innovantes à fort potentiel, de l'amorçage à l'échelle.",
-    "summary": "Le Capital-Risque (VC) est une forme de private equity qui finance les startups et petites entreprises à fort potentiel de croissance. Les investissements se font généralement en échange de titres de capital, avec pour objectif de générer un rendement lors d'une sortie."
+    "summary": "Financement de start-ups et petites entreprises à fort potentiel de croissance en échange de participations, accompagné d'un soutien technologique et managérial pour aider les entrepreneurs à se développer.",
+    "sections": [
+      {
+        "heading": "Ce que nous recherchons",
+        "intro": "Nos investissements en capital-risque se portent sur des sociétés présentant :",
+        "items": [
+          {
+            "term": "Un fort potentiel de croissance",
+            "text": "Des produits, services ou modèles économiques innovants, capables d'une croissance significative."
+          },
+          {
+            "term": "Un avantage concurrentiel",
+            "text": "Une proposition de valeur unique, une technologie propriétaire ou tout autre avantage moteur de croissance et de rentabilité."
+          },
+          {
+            "term": "Une équipe dirigeante solide",
+            "text": "Des équipes expérimentées, compétentes et engagées, en mesure d'exécuter leur plan de développement."
+          }
+        ]
+      },
+      {
+        "heading": "Formes de financement",
+        "intro": "Le capital-risque prend plusieurs formes :",
+        "items": [
+          {
+            "term": "Financement d'amorçage (Seed)",
+            "text": "Financement de phase précoce, qui soutient l'élaboration du plan d'affaires, du produit ou du service."
+          },
+          {
+            "term": "Série A",
+            "text": "Financement du lancement et de la croissance de l'activité, en échange de titres de capital."
+          },
+          {
+            "term": "Growth Equity",
+            "text": "Financement de l'expansion et du changement d'échelle, en échange de titres de capital."
+          }
+        ]
+      },
+      {
+        "heading": "Sources de capital-risque",
+        "intro": "Les capitaux proviennent de plusieurs types d'acteurs :",
+        "items": [
+          {
+            "term": "Fonds de capital-risque",
+            "text": "Sociétés spécialisées dans l'investissement en start-ups et petites entreprises."
+          },
+          {
+            "term": "Business Angels",
+            "text": "Particuliers fortunés investissant dans des start-ups en échange de participations."
+          },
+          {
+            "term": "Corporate Venture Capital",
+            "text": "Grands groupes investissant dans des start-ups pour stimuler innovation et croissance."
+          },
+          {
+            "term": "Family Offices",
+            "text": "Structures de gestion de patrimoine investissant pour le compte de familles fortunées."
+          }
+        ]
+      },
+      {
+        "heading": "Notre valeur ajoutée",
+        "intro": "Au-delà du capital, nous apportons aux entreprises que nous accompagnons :",
+        "items": [
+          {
+            "term": "Financement",
+            "text": "Les moyens nécessaires à la croissance et au développement de l'activité."
+          },
+          {
+            "term": "Expertise technologique",
+            "text": "Un appui technique et des conseils au service du développement de l'entreprise."
+          },
+          {
+            "term": "Expérience managériale",
+            "text": "Un accompagnement managérial et des conseils opérationnels."
+          },
+          {
+            "term": "Accès à un réseau",
+            "text": "L'entrée dans un réseau d'investisseurs, d'entrepreneurs et d'experts sectoriels."
+          }
+        ]
+      }
+    ],
+    "conclusion": "Le capital-risque est une source de financement vitale pour les start-ups et petites entreprises à fort potentiel. En apportant capitaux, expertise et accompagnement, nous aidons les entrepreneurs à atteindre leurs objectifs de croissance et à bâtir des entreprises pérennes."
   },
+
   "investmentBanking": {
-    "title": "Banque d'Affaires",
-    "cta": "Demander nos services de Banque d'Affaires",
+    "title": "Investment Banking (Banque d'Investissement)",
+    "cta": "Demander les services de Banque d'Investissement",
     "tagline": "Conseil stratégique et exécution d'opérations financières complexes.",
-    "summary": "La Banque d'Affaires est une forme spécialisée de banque qui facilite les opérations financières de grande ampleur : fusions-acquisitions (M&A), introductions en bourse (IPO) et émissions de dette. Nous fournissons conseil stratégique et services financiers aux entreprises, gouvernements et institutions financières."
+    "summary": "Conseil stratégique et services de marchés de capitaux pour entreprises, gouvernements et institutions financières, facilitant des transactions financières complexes de grande envergure.",
+    "sections": [
+      {
+        "heading": "Définition et périmètre",
+        "intro": "Les banques d'investissement jouent un rôle central dans les opérations financières complexes :",
+        "items": [
+          {
+            "term": "Conseil en Fusions-Acquisitions",
+            "text": "Accompagner l'achat ou la cession d'entreprises : réflexion stratégique, due diligence et exécution de l'opération."
+          },
+          {
+            "term": "Gestion d'introductions en bourse",
+            "text": "Piloter l'introduction d'une société en bourse : dépôt des documents réglementaires, fixation du prix et allocation des titres."
+          },
+          {
+            "term": "Émission de dette",
+            "text": "Lever des capitaux par la dette : obligations, prêts et lignes de crédit."
+          }
+        ]
+      },
+      {
+        "heading": "Services clés",
+        "intro": "Nos services de banque d'investissement comprennent :",
+        "items": [
+          {
+            "term": "Souscription (Underwriting)",
+            "text": "Accompagner la levée de capitaux par l'émission de nouveaux titres : actions, obligations et autres instruments de dette."
+          },
+          {
+            "term": "Conseil stratégique",
+            "text": "Conseiller sur la stratégie d'entreprise, la restructuration et les autres enjeux financiers."
+          },
+          {
+            "term": "Restructuration et réorganisation",
+            "text": "Accompagner les entreprises dans la restructuration et la réorganisation de leurs activités."
+          },
+          {
+            "term": "Services de courtage",
+            "text": "Exécuter les ordres pour le compte d'investisseurs institutionnels et privés."
+          }
+        ]
+      },
+      {
+        "heading": "Bénéfices",
+        "intro": "La banque d'investissement apporte à ses clients :",
+        "items": [
+          {
+            "term": "Accès aux marchés de capitaux",
+            "text": "La capacité de lever des fonds, de se coter en bourse et de mener des opérations de fusion-acquisition."
+          },
+          {
+            "term": "Conseil d'experts",
+            "text": "Un accompagnement expert sur les décisions financières stratégiques : M&A, introductions en bourse et émissions de dette."
+          },
+          {
+            "term": "Portée internationale",
+            "text": "Des services déployés auprès de clients de différentes régions et de différents secteurs."
+          }
+        ]
+      },
+      {
+        "heading": "Nos exigences",
+        "intro": "Nous nous imposons les principes suivants :",
+        "items": [
+          {
+            "term": "Confidentialité",
+            "text": "Protéger la confidentialité du client et maintenir le plus haut niveau de professionnalisme."
+          },
+          {
+            "term": "Conseil objectif",
+            "text": "Formuler un conseil objectif, dans le seul intérêt du client."
+          },
+          {
+            "term": "Conformité réglementaire",
+            "text": "Veiller à ce que chaque opération soit menée dans le respect des lois et règlements applicables."
+          }
+        ]
+      }
+    ],
+    "conclusion": "La banque d'investissement joue un rôle déterminant dans la réalisation d'opérations financières complexes et dans le conseil stratégique. Nos banquiers associent une connaissance fine des marchés de capitaux, des dynamiques sectorielles et du cadre réglementaire pour conseiller et exécuter avec succès."
   },
+
   "realEstate": {
     "title": "Fonds Immobiliers & REITs",
-    "cta": "Demander nos solutions d'investissement immobilier",
+    "cta": "Demander des options d'investissement immobilier",
     "tagline": "L'immobilier de rendement, sans acheter ni gérer directement les biens.",
-    "summary": "Les Real Estate Investment Trusts (REITs) sont des sociétés qui détiennent, exploitent ou financent des actifs immobiliers de rendement dans divers secteurs. Ils permettent d'investir dans l'immobilier sans acheter, gérer ou financer directement les biens."
+    "summary": "Véhicules d'investissement immobilier générateurs de revenus, offrant une exposition diversifiée au marché immobilier sans la contrainte d'une gestion directe.",
+    "sections": [
+      {
+        "heading": "Fonctionnement",
+        "intro": "Les REITs fonctionnent selon un principe simple :",
+        "items": [
+          {
+            "term": "Mutualisation des capitaux",
+            "text": "Réunir les fonds de plusieurs investisseurs pour constituer un portefeuille d'actifs diversifié."
+          },
+          {
+            "term": "Investissement immobilier",
+            "text": "Acquérir, développer et gérer des biens générateurs de revenus."
+          },
+          {
+            "term": "Distribution des revenus",
+            "text": "Reverser aux porteurs une part significative des revenus générés, sous forme de dividendes."
+          }
+        ]
+      },
+      {
+        "heading": "Bénéfices",
+        "intro": "Les REITs offrent aux investisseurs plusieurs avantages :",
+        "items": [
+          {
+            "term": "Diversification",
+            "text": "L'ajout d'actifs immobiliers au sein d'un portefeuille d'investissement."
+          },
+          {
+            "term": "Génération de revenus",
+            "text": "Un flux de revenus régulier, versé sous forme de dividendes."
+          },
+          {
+            "term": "Liquidité",
+            "text": "La possibilité d'acheter et de vendre facilement des parts sur les principales places boursières."
+          },
+          {
+            "term": "Gestion professionnelle",
+            "text": "L'accès à des professionnels expérimentés qui gèrent les biens et les investissements."
+          }
+        ]
+      },
+      {
+        "heading": "Types de biens",
+        "intro": "Les REITs investissent dans une large gamme d'actifs :",
+        "items": [
+          { "term": "Immeubles résidentiels", "text": "Ensembles de logements collectifs." },
+          { "term": "Tours télécoms", "text": "Infrastructures de télécommunication." },
+          {
+            "term": "Data centers",
+            "text": "Installations hébergeant serveurs et stockage de données."
+          },
+          { "term": "Hôtels", "text": "Actifs du secteur hôtelier." },
+          { "term": "Établissements médicaux", "text": "Actifs liés à la santé." },
+          { "term": "Bureaux", "text": "Immobilier tertiaire." },
+          { "term": "Centres commerciaux", "text": "Galeries marchandes et ensembles commerciaux." },
+          { "term": "Entrepôts", "text": "Immobilier logistique et industriel." }
+        ]
+      },
+      {
+        "heading": "Modes d'investissement et points de vigilance",
+        "intro": "On accède aux REITs par plusieurs canaux — actions de REITs, fonds communs REITs ou ETFs REITs — en gardant à l'esprit que :",
+        "items": [
+          {
+            "term": "Volatilité de marché",
+            "text": "Le cours des REITs réagit aux mouvements de marché, aux taux d'intérêt et à la conjoncture."
+          },
+          {
+            "term": "Risques du marché immobilier",
+            "text": "Une exposition à l'évolution des valeurs, des loyers et des taux d'occupation."
+          },
+          {
+            "term": "Dette et effet de levier",
+            "text": "Le recours fréquent à l'endettement accroît le risque de défaut et peut peser sur le cours."
+          }
+        ]
+      }
+    ],
+    "conclusion": "Les REITs offrent une opportunité d'investissement singulière : un flux de revenus régulier et un réel effet de diversification. En comprenant leurs caractéristiques, leurs catégories et les types de biens sous-jacents, l'investisseur peut décider en connaissance de cause de leur place dans son portefeuille."
   },
+
   "financialEngineering": {
     "title": "Ingénierie Financière",
-    "cta": "Demander un appui en Ingénierie Financière",
+    "cta": "Demander un accompagnement en Ingénierie Financière",
     "tagline": "Mathématiques, statistiques et calcul appliqués à l'investissement et au risque.",
-    "summary": "L'Ingénierie Financière est un domaine hautement spécialisé qui applique des techniques mathématiques, statistiques et computationnelles à l'analyse et à la gestion du risque financier. Elle combine mathématiques appliquées, statistiques, informatique, théorie financière et économie pour mener une analyse quantitative des marchés."
+    "summary": "Une pratique interdisciplinaire combinant mathématiques, statistiques, informatique et théorie financière pour concevoir des stratégies d'investissement innovantes et gérer le risque.",
+    "sections": [
+      {
+        "heading": "Objectifs",
+        "intro": "L'ingénierie financière poursuit les objectifs suivants :",
+        "items": [
+          {
+            "term": "Développement de stratégies d'investissement",
+            "text": "Concevoir et éprouver des modèles quantitatifs au service des décisions d'investissement."
+          },
+          {
+            "term": "Conception de nouveaux produits financiers",
+            "text": "Élaborer des instruments innovants, tels que produits dérivés et produits structurés."
+          },
+          {
+            "term": "Gestion des risques",
+            "text": "Identifier, évaluer et atténuer les risques financiers par des techniques statistiques et mathématiques avancées."
+          },
+          {
+            "term": "Prévisions et analyse de scénarios",
+            "text": "Construire scénarios et prévisions de marché à court et long terme."
+          }
+        ]
+      },
+      {
+        "heading": "Applications",
+        "intro": "L'ingénierie financière irrigue de nombreux métiers :",
+        "items": [
+          {
+            "term": "Banque d'investissement",
+            "text": "Concevoir des modèles et stratégies financières complexes pour les clients."
+          },
+          {
+            "term": "Hedge Funds",
+            "text": "Élaborer des stratégies d'investissement quantitatives destinées à maximiser le rendement."
+          },
+          {
+            "term": "Gestion d'actifs",
+            "text": "Développer des stratégies de gestion du risque et d'investissement pour les clients institutionnels."
+          },
+          {
+            "term": "Banque commerciale",
+            "text": "Piloter le risque et concevoir des produits financiers pour la clientèle entreprises."
+          },
+          {
+            "term": "Assurance",
+            "text": "Élaborer des stratégies de gestion du risque et d'investissement pour les compagnies d'assurance."
+          }
+        ]
+      }
+    ],
+    "conclusion": "L'ingénierie financière joue un rôle déterminant dans l'industrie de l'investissement. En associant techniques mathématiques et statistiques avancées, théorie financière et économie, elle apporte des réponses innovantes à des problèmes financiers complexes."
   },
+
   "businessDevelopment": {
     "title": "Développement Commercial",
-    "cta": "Demander un appui en Développement Commercial",
+    "cta": "Demander un accompagnement en Développement Commercial",
     "tagline": "Une approche stratégique de la croissance et de la rentabilité.",
-    "summary": "Le Développement Commercial est un processus systématique de planification de la croissance future : identifier de nouvelles opportunités, nouer des partenariats stratégiques et créer de la valeur pour l'entreprise. Il suppose de comprendre son audience cible, les opportunités de marché et les canaux d'approche efficaces."
+    "summary": "Notre moteur de croissance — identification de nouvelles opportunités, création de partenariats stratégiques et amélioration de la rentabilité à chaque étape du développement de nos clients.",
+    "sections": [
+      {
+        "heading": "Objectifs",
+        "intro": "Le développement commercial poursuit quatre objectifs principaux :",
+        "items": [
+          {
+            "term": "Croissance des ventes",
+            "text": "Accroître le chiffre d'affaires par de nouveaux canaux, produits ou services."
+          },
+          {
+            "term": "Expansion commerciale",
+            "text": "Entrer sur de nouveaux marchés, élargir les gammes ou acquérir des entreprises."
+          },
+          {
+            "term": "Partenariats stratégiques",
+            "text": "Nouer des alliances pour renforcer la compétitivité, améliorer le positionnement ou accroître la rentabilité."
+          },
+          {
+            "term": "Amélioration de la rentabilité",
+            "text": "Améliorer les marges par la réduction des coûts, l'optimisation des processus ou la croissance du revenu."
+          }
+        ]
+      },
+      {
+        "heading": "Activités clés",
+        "intro": "Le développement commercial repose sur plusieurs leviers :",
+        "items": [
+          {
+            "term": "Étude de marché",
+            "text": "Identifier les nouvelles opportunités, les tendances et les besoins clients."
+          },
+          {
+            "term": "Analyse concurrentielle",
+            "text": "Analyser les concurrents pour cerner forces, faiblesses et positionnement."
+          },
+          {
+            "term": "Développement de partenariats",
+            "text": "Construire des partenariats stratégiques renforçant la compétitivité et le positionnement."
+          },
+          {
+            "term": "Stratégie commerciale et marketing",
+            "text": "Bâtir les stratégies de vente et de marketing qui portent la croissance et la rentabilité."
+          }
+        ]
+      },
+      {
+        "heading": "Bonnes pratiques",
+        "intro": "Pour réussir en développement commercial, une organisation doit :",
+        "items": [
+          {
+            "term": "Définir une stratégie claire",
+            "text": "Bâtir une stratégie de développement alignée sur les objectifs de l'organisation."
+          },
+          {
+            "term": "Construire des relations solides",
+            "text": "Renforcer les liens avec clients, partenaires et parties prenantes pour soutenir la croissance."
+          },
+          {
+            "term": "Garder une longueur d'avance",
+            "text": "Surveiller en continu les tendances du marché, les besoins clients et l'activité des concurrents."
+          },
+          {
+            "term": "Cultiver l'innovation",
+            "text": "Entretenir une culture de l'innovation, moteur de croissance, d'efficacité et de satisfaction client."
+          }
+        ]
+      }
+    ],
+    "conclusion": "Le développement commercial est une fonction critique dans toute organisation : c'est lui qui porte la croissance, la rentabilité et la compétitivité. En maîtrisant ses objectifs, ses effets et ses leviers, une entreprise peut bâtir les stratégies qui la mèneront à ses objectifs."
   },
+
   "construction": {
     "title": "Construction, Bâtiment & Travaux Publics",
     "cta": "Demander une consultation Construction",
     "tagline": "Des services de construction complets pour les secteurs privé et public.",
-    "summary": "Notre organisation est spécialisée dans les services de construction, couvrant les projets de bâtiment et de travaux publics, pour des clients privés et publics. Avec un engagement fort sur la qualité, la sécurité et la satisfaction client, nous livrons des solutions sur mesure adaptées aux besoins de chaque client."
+    "summary": "Services de construction complets pour les clients des secteurs privé et public — de la construction résidentielle et commerciale aux infrastructures publiques.",
+    "sections": [
+      {
+        "heading": "Périmètre",
+        "intro": "Nos services de construction couvrent :",
+        "items": [
+          {
+            "term": "Construction de bâtiments",
+            "text": "Concevoir et construire des ouvrages résidentiels, commerciaux et industriels, dans le respect des exigences réglementaires et des standards du secteur."
+          },
+          {
+            "term": "Travaux publics",
+            "text": "Développer et entretenir les infrastructures — routes, ponts, autoroutes et réseaux de transport public — avec des solutions innovantes."
+          },
+          {
+            "term": "Génie civil",
+            "text": "Préparation de site, terrassement et fondations, garantissant intégrité structurelle et sécurité."
+          }
+        ]
+      },
+      {
+        "heading": "Pourquoi nous choisir",
+        "intro": "En travaillant avec nous, nos clients bénéficient de :",
+        "items": [
+          {
+            "term": "Service personnalisé",
+            "text": "Des solutions de construction adaptées aux besoins et objectifs propres à chaque client."
+          },
+          {
+            "term": "Expertise approfondie",
+            "text": "Une expérience étendue en construction, bâtiment et travaux publics."
+          },
+          {
+            "term": "Livraison au meilleur rapport qualité-prix",
+            "text": "Des projets livrés dans les délais, dans le budget, et au plus haut niveau d'exigence."
+          },
+          {
+            "term": "Références solides",
+            "text": "Un historique de projets complexes menés à bien, qui atteste de nos capacités."
+          }
+        ]
+      }
+    ],
+    "conclusion": "Fortement engagés sur la qualité, la sécurité et la satisfaction client, nous livrons des solutions de construction adaptées aux besoins et objectifs propres à chaque client."
   },
+
   "forex": {
-    "title": "Trading Forex",
+    "title": "Trading Forex (FX)",
     "tagline": "Le marché le plus vaste et le plus liquide au monde — contenu pédagogique.",
-    "summary": "Le marché des changes (Forex ou FX) est une place électronique mondiale où banques, entreprises, gouvernements, investisseurs et particuliers échangent des devises. Avec un volume quotidien d'environ 7 500 milliards de dollars, le Forex est le marché le plus vaste et le plus liquide au monde. Décentralisé, il fonctionne 24 h/24, 5 jours sur 7."
+    "summary": "Le marché des changes est le plus vaste et le plus liquide au monde, avec environ 7 500 milliards de dollars échangés chaque jour. Cette page présente la dynamique des taux de change, les stratégies de trading (analyse technique et fondamentale, scalping, day trading) et les risques associés (volatilité, effet de levier, liquidité, réglementation).",
+    "sections": [
+      {
+        "heading": "Atouts du marché",
+        "intro": "",
+        "items": [
+          {
+            "term": "Liquidité",
+            "text": "Le marché le plus liquide au monde : acheter et vendre des devises y est aisé."
+          },
+          {
+            "term": "Ouverture 24 h/24, 5 j/7",
+            "text": "Un marché ouvert en continu du lundi au vendredi, qui permet de réagir aux événements dès qu'ils surviennent."
+          }
+        ]
+      },
+      {
+        "heading": "Risques",
+        "intro": "",
+        "items": [
+          {
+            "term": "Volatilité",
+            "text": "Les taux de change peuvent varier fortement et rapidement."
+          },
+          {
+            "term": "Effet de levier",
+            "text": "Le levier amplifie les gains, mais tout autant les pertes potentielles."
+          },
+          {
+            "term": "Risque de liquidité",
+            "text": "Le marché peut connaître des tensions de liquidité, rendant certaines transactions difficiles."
+          },
+          {
+            "term": "Risque réglementaire",
+            "text": "Le trading de devises est encadré par diverses autorités, et toute évolution réglementaire peut affecter les positions."
+          }
+        ]
+      },
+      {
+        "heading": "Stratégies de trading",
+        "intro": "",
+        "items": [
+          {
+            "term": "Analyse technique",
+            "text": "Étudier graphiques et configurations pour anticiper l'évolution des cours."
+          },
+          {
+            "term": "Analyse fondamentale",
+            "text": "Analyser les événements économiques et géopolitiques pour anticiper l'évolution des cours."
+          },
+          {
+            "term": "Scalping",
+            "text": "Multiplier les transactions courtes pour capter de faibles variations de prix."
+          },
+          {
+            "term": "Day trading",
+            "text": "Ouvrir et solder ses positions dans la même journée, avant la clôture du marché."
+          }
+        ]
+      },
+      {
+        "heading": "Types d'opérations",
+        "intro": "",
+        "items": [
+          {
+            "term": "Opérations au comptant (spot)",
+            "text": "Acheter ou vendre des devises au cours du marché."
+          },
+          {
+            "term": "Opérations à terme (forward)",
+            "text": "Acheter ou vendre des devises à un cours fixé, pour une livraison future."
+          },
+          {
+            "term": "Contrats futures",
+            "text": "Acheter ou vendre des devises à un cours fixé pour une livraison future, avec des tailles de contrat et des échéances standardisées."
+          }
+        ]
+      },
+      {
+        "heading": "Recommandations",
+        "intro": "",
+        "items": [
+          {
+            "term": "Établir un plan de trading",
+            "text": "Formaliser objectifs, tolérance au risque et stratégies."
+          },
+          {
+            "term": "Rester informé",
+            "text": "Suivre l'actualité, les analyses et les tendances de marché pour décider en connaissance de cause."
+          },
+          {
+            "term": "Maîtriser le risque",
+            "text": "Recourir aux ordres stop et au dimensionnement des positions pour limiter les pertes."
+          },
+          {
+            "term": "Se former en continu",
+            "text": "Approfondir sans relâche stratégies, techniques et bonnes pratiques."
+          }
+        ]
+      }
+    ],
+    "conclusion": "Le trading de devises offre aux particuliers comme aux institutions des occasions de tirer parti des variations de change. Il reste indispensable d'en comprendre les risques et de bâtir une stratégie solide, pour limiter les pertes et optimiser les gains."
   },
+
   "crypto": {
     "title": "Cryptomonnaies",
     "tagline": "Monnaie numérique, blockchain et marchés décentralisés — contenu pédagogique.",
-    "summary": "Une cryptomonnaie est une monnaie numérique ou virtuelle qui utilise la cryptographie pour sa sécurité, ce qui la rend quasi impossible à contrefaire ou à dépenser deux fois. Elle fonctionne sur des réseaux décentralisés et s'appuie sur la technologie blockchain pour des transactions sécurisées et transparentes."
+    "summary": "Un panorama des monnaies numériques sécurisées par la cryptographie et la blockchain — décentralisation, transparence et modèles émergents comme la DeFi et les NFT — ainsi que les principaux risques (volatilité, sécurité, réglementation).",
+    "sections": [
+      {
+        "heading": "Caractéristiques principales",
+        "intro": "",
+        "items": [
+          {
+            "term": "Décentralisation",
+            "text": "Les cryptomonnaies ne sont émises ni contrôlées par aucune autorité centrale, gouvernement ou institution financière."
+          },
+          {
+            "term": "Format numérique",
+            "text": "Elles n'existent que sous forme numérique, et les transactions s'effectuent en ligne."
+          },
+          {
+            "term": "Cryptographie",
+            "text": "Des techniques cryptographiques avancées sécurisent les transactions et encadrent la création de nouvelles unités."
+          },
+          {
+            "term": "Blockchain",
+            "text": "Un registre distribué qui enregistre les transactions sur un réseau d'ordinateurs."
+          }
+        ]
+      },
+      {
+        "heading": "Avantages",
+        "intro": "",
+        "items": [
+          {
+            "term": "Transferts rapides et peu coûteux",
+            "text": "Des transferts de fonds rapides et économiques, avec moins d'intermédiaires."
+          },
+          {
+            "term": "Systèmes décentralisés",
+            "text": "Des systèmes qui ne s'effondrent pas en un point unique de défaillance."
+          },
+          {
+            "term": "Transparence",
+            "text": "Des transactions inscrites sur un registre public, donc traçables et auditables."
+          }
+        ]
+      },
+      {
+        "heading": "Inconvénients",
+        "intro": "",
+        "items": [
+          {
+            "term": "Volatilité des cours",
+            "text": "Des prix très volatils, sources de pertes significatives en l'absence de gestion du risque."
+          },
+          {
+            "term": "Consommation énergétique",
+            "text": "Une activité de minage énergivore, qui soulève des préoccupations environnementales."
+          },
+          {
+            "term": "Usages criminels",
+            "text": "Des cryptomonnaies parfois associées à des activités illicites, dont le blanchiment et le financement du terrorisme."
+          }
+        ]
+      },
+      {
+        "heading": "Points de vigilance pour le trading",
+        "intro": "Le trading de cryptomonnaies passe soit par la spéculation sur les variations de prix via un compte CFD, soit par l'achat et la vente des jetons sur une plateforme d'échange.",
+        "items": [
+          {
+            "term": "Volatilité",
+            "text": "Des marchés réputés pour l'ampleur et la rapidité de leurs variations."
+          },
+          {
+            "term": "Cadre réglementaire",
+            "text": "Un environnement réglementaire mouvant, où de nouvelles règles apparaissent régulièrement."
+          },
+          {
+            "term": "Sécurité",
+            "text": "Des plateformes et portefeuilles exposés au piratage : des mesures de sécurité robustes sont indispensables."
+          }
+        ]
+      }
+    ],
+    "conclusion": "La cryptomonnaie est une forme de monnaie numérique qui propose un mode de transaction sécurisé, décentralisé et transparent. Le marché continuant d'évoluer, investisseurs et parties prenantes ont tout intérêt à rester informés et à s'adapter."
   },
+
   "stockMarket": {
-    "title": "Marchés Boursiers",
+    "title": "Marché Boursier",
     "tagline": "Comprendre le fonctionnement des marchés cotés — contenu pédagogique.",
-    "summary": "Le marché boursier est un mécanisme d'échange essentiel, qui permet aux investisseurs d'acheter et de vendre des actions de sociétés cotées. Si des lieux physiques comme le NYSE ou le NASDAQ existent, le marché fonctionne aujourd'hui majoritairement par transactions électroniques entre participants distants."
+    "summary": "Le fonctionnement des marchés actions — bourses, introductions en bourse, formation des prix, et le rôle des marchés de capitaux dans la croissance des entreprises et le rendement des investisseurs.",
+    "sections": [
+      {
+        "heading": "Acteurs et composantes",
+        "intro": "",
+        "items": [
+          {
+            "term": "Places boursières",
+            "text": "Des plateformes telles que le NYSE ou le NASDAQ, où s'échangent les titres."
+          },
+          {
+            "term": "Sociétés cotées",
+            "text": "Des entreprises qui émettent des actions pour lever des capitaux et financer leur croissance."
+          },
+          {
+            "term": "Investisseurs",
+            "text": "Particuliers, institutions et organisations qui achètent et vendent des titres en quête de rendement."
+          }
+        ]
+      },
+      {
+        "heading": "Fonctionnement",
+        "intro": "",
+        "items": [
+          {
+            "term": "Introduction en bourse (IPO)",
+            "text": "Une société ouvre son capital au public pour la première fois, afin de financer sa croissance."
+          },
+          {
+            "term": "Négociation",
+            "text": "Les ordres d'achat et de vente s'exécutent électroniquement, ce qui assure la liquidité du marché."
+          },
+          {
+            "term": "Formation des prix",
+            "text": "Le cours des titres résulte du jeu de l'offre et de la demande."
+          },
+          {
+            "term": "Analyse de marché",
+            "text": "Les analystes étudient tendances, cours et indicateurs économiques pour évaluer la performance du marché."
+          }
+        ]
+      },
+      {
+        "heading": "Risques et encadrement",
+        "intro": "",
+        "items": [
+          {
+            "term": "Volatilité",
+            "text": "Les cours peuvent varier rapidement sous l'effet de facteurs de marché et économiques."
+          },
+          {
+            "term": "Risque de perte",
+            "text": "L'investisseur peut subir des pertes : d'où l'importance de décisions éclairées."
+          },
+          {
+            "term": "Cadre réglementaire",
+            "text": "Les marchés opèrent dans un cadre réglementaire établi, garant de pratiques équitables et de l'intégrité du marché."
+          }
+        ]
+      }
+    ],
+    "conclusion": "En comprenant le fonctionnement, les composantes et les mécanismes du marché boursier, investisseurs et entreprises peuvent s'y orienter efficacement et décider en connaissance de cause pour atteindre leurs objectifs financiers."
   },
+
   "agriculture": {
     "title": "Finance Agricole & Fermes d'Investissement",
     "cta": "Demander des informations sur la Finance Agricole",
     "tagline": "Financer des chaînes de valeur alimentaires durables et rentables.",
-    "summary": "La finance agricole joue un rôle vital : elle renforce les agriculteurs, améliore la sécurité alimentaire et favorise le développement de chaînes de valeur alimentaires durables. La demande mondiale de nourriture devant augmenter de 70 % d'ici 2050, ce qui exige au moins 80 milliards de dollars d'investissements annuels, notre action porte sur des services financiers de marché et le financement d'investissements verts de long terme."
+    "summary": "Des services financiers de marché (prêts, assurance) et des investissements verts de long terme qui renforcent les agriculteurs, la sécurité alimentaire, et génèrent des rendements via des exploitations agricoles détenues institutionnellement et gérées professionnellement.",
+    "sections": [
+      {
+        "heading": "Messages clés",
+        "intro": "",
+        "items": [
+          {
+            "term": "Autonomisation des agriculteurs",
+            "text": "La finance agricole permet aux agriculteurs d'accroître leur patrimoine, d'améliorer leurs conditions de vie et de renforcer leur résilience face au changement climatique."
+          },
+          {
+            "term": "Chaînes de valeur alimentaires durables",
+            "text": "Favoriser la sécurité alimentaire tout en réduisant l'empreinte environnementale de l'agriculture."
+          },
+          {
+            "term": "Répondre à la demande mondiale",
+            "text": "La demande alimentaire mondiale devrait progresser de 70 % d'ici 2050, ce qui appelle des investissements considérables."
+          },
+          {
+            "term": "Services financiers de marché",
+            "text": "Prêts, assurance et autres produits financiers au service d'une agriculture durable et de ses filières."
+          },
+          {
+            "term": "Investissements verts de long terme",
+            "text": "Financer des pratiques respectueuses de l'environnement et réduire l'empreinte carbone de l'agriculture."
+          }
+        ]
+      },
+      {
+        "heading": "Fermes d'investissement",
+        "intro": "Une ferme d'investissement est une exploitation agricole acquise et exploitée dans un objectif de rendement financier. Elle se caractérise par :",
+        "items": [
+          {
+            "term": "Détention institutionnelle",
+            "text": "Une propriété détenue par des investisseurs institutionnels, non impliqués dans l'exploitation quotidienne."
+          },
+          {
+            "term": "Gestion professionnelle",
+            "text": "Une exploitation confiée à des responsables agricoles et à des équipes expérimentées."
+          },
+          {
+            "term": "Finalité financière",
+            "text": "Un objectif premier de rendement, par la production et la commercialisation agricoles."
+          }
+        ]
+      },
+      {
+        "heading": "Bénéfices et risques",
+        "intro": "",
+        "items": [
+          {
+            "term": "Diversification",
+            "text": "Une occasion singulière de diversifier son portefeuille et de réduire sa dépendance aux actifs traditionnels."
+          },
+          {
+            "term": "Valorisation à long terme",
+            "text": "Des terres et actifs agricoles susceptibles de s'apprécier dans la durée."
+          },
+          {
+            "term": "Avantages fiscaux",
+            "text": "Des dispositifs fiscaux propres à l'activité agricole, notamment sur les charges d'exploitation et les amortissements."
+          },
+          {
+            "term": "Volatilité et aléas",
+            "text": "Des marchés agricoles volatils, où cours des matières premières et conditions météorologiques pèsent sur la rentabilité, auxquels s'ajoutent les risques opérationnels et réglementaires."
+          }
+        ]
+      }
+    ],
+    "conclusion": "La finance agricole est essentielle pour répondre à la hausse de la demande alimentaire, renforcer la sécurité alimentaire et promouvoir des pratiques agricoles durables. Notre action porte sur des services financiers de marché et le financement d'investissements verts de long terme au service des filières agroalimentaires."
   },
+
   "managementConsulting": {
     "title": "Conseil en Management",
     "cta": "Demander une mission de conseil",
     "tagline": "Un accompagnement expert vers l'excellence opérationnelle.",
-    "summary": "Nos services de Conseil en Management aident les entreprises à atteindre l'excellence en matière de performance, d'efficacité et de rentabilité. Notre équipe de consultants expérimentés apporte un accompagnement expert, un avis objectif et des solutions sur mesure face aux défis et opportunités propres à chaque organisation."
+    "summary": "Un conseil expert et objectif qui aide les organisations à améliorer leur performance, leur efficacité et leur rentabilité grâce à un accompagnement sur-mesure.",
+    "sections": [
+      {
+        "heading": "Nos services",
+        "intro": "Nos prestations de conseil en management comprennent :",
+        "items": [
+          {
+            "term": "Conseil en stratégie",
+            "text": "Élaborer et déployer les stratégies d'entreprise qui portent croissance et rentabilité."
+          },
+          {
+            "term": "Conseil en opérations",
+            "text": "Améliorer l'efficacité opérationnelle, réduire les coûts et accroître la productivité."
+          },
+          {
+            "term": "Conseil RH",
+            "text": "Concevoir et déployer les politiques RH d'attraction, de fidélisation et de développement des talents."
+          },
+          {
+            "term": "Conseil IT",
+            "text": "Accompagner la stratégie, la mise en œuvre et la gestion des systèmes d'information."
+          },
+          {
+            "term": "Conseil en conduite du changement",
+            "text": "Accompagner les organisations dans la conduite et la réussite de leurs transformations."
+          }
+        ]
+      },
+      {
+        "heading": "Notre processus",
+        "intro": "",
+        "items": [
+          {
+            "term": "Évaluation des besoins",
+            "text": "Cerner les besoins de l'organisation et délimiter le périmètre de la mission."
+          },
+          {
+            "term": "Collecte et analyse des données",
+            "text": "Réunir et analyser les données qui fonderont nos recommandations."
+          },
+          {
+            "term": "Recommandations et mise en œuvre",
+            "text": "Construire et déployer des solutions adaptées."
+          },
+          {
+            "term": "Suivi et évaluation",
+            "text": "Mesurer l'avancement et évaluer les résultats obtenus."
+          }
+        ]
+      },
+      {
+        "heading": "Ce que vous y gagnez",
+        "intro": "En travaillant avec notre équipe de conseil, une organisation peut :",
+        "items": [
+          {
+            "term": "Accéder à une expertise",
+            "text": "S'appuyer sur l'expérience et les connaissances de consultants aguerris."
+          },
+          {
+            "term": "Gagner un regard extérieur",
+            "text": "Bénéficier d'un point de vue neuf et objectif sur ses enjeux."
+          },
+          {
+            "term": "Obtenir des solutions sur mesure",
+            "text": "Recevoir des réponses ajustées à ses besoins propres."
+          },
+          {
+            "term": "Être accompagné dans la mise en œuvre",
+            "text": "Disposer d'un appui et de conseils tout au long du déploiement."
+          }
+        ]
+      }
+    ],
+    "conclusion": "Nos services de Conseil en Management aident les entreprises à atteindre l'excellence en matière de performance, d'efficacité et de rentabilité. Nos consultants expérimentés leur apportent un accompagnement expert, un avis objectif et des solutions sur mesure."
   },
+
   "closingManagement": {
-    "title": "Closing Management",
-    "cta": "Demander un appui en Closing Management",
+    "title": "Gestion des Clôtures",
+    "cta": "Demander un accompagnement en Gestion des Clôtures",
     "tagline": "Une approche complète pour des transactions immobilières sans accroc.",
-    "summary": "Le Closing Management est une composante critique du processus de transaction immobilière : il exige une attention méticuleuse au détail, une communication efficace et une connaissance approfondie des exigences réglementaires. Notre approche garantit un transfert de propriété fluide, efficace et exact, qui limite les risques et améliore la satisfaction client."
+    "summary": "Coordination minutieuse des dernières étapes d'une transaction immobilière, garantissant un transfert de propriété précis, conforme et dans les délais.",
+    "sections": [
+      {
+        "heading": "Pourquoi c'est déterminant",
+        "intro": "Une gestion des clôtures maîtrisée permet de :",
+        "items": [
+          {
+            "term": "Tenir les délais",
+            "text": "Un processus de clôture fluide et efficace garantit une transaction bouclée dans les temps."
+          },
+          {
+            "term": "Assurer exactitude et conformité",
+            "text": "Des documents exacts, complets et conformes aux exigences réglementaires."
+          },
+          {
+            "term": "Réduire le risque",
+            "text": "Une clôture bien conduite limite les erreurs, les retards et les litiges."
+          },
+          {
+            "term": "Soigner l'expérience client",
+            "text": "Une clôture bien gérée laisse une impression positive à l'acquéreur, au vendeur et à toutes les parties."
+          }
+        ]
+      },
+      {
+        "heading": "Composantes clés",
+        "intro": "Notre processus de gestion des clôtures comprend :",
+        "items": [
+          {
+            "term": "Préparation pré-clôture",
+            "text": "Préparation des documents, recherches de titres et coordination des parties prenantes."
+          },
+          {
+            "term": "Revue et préparation des documents",
+            "text": "Examen et préparation des actes, hypothèques et décomptes de liquidation."
+          },
+          {
+            "term": "Coordination de la clôture",
+            "text": "Organisation du rendez-vous de clôture, du financement et des décaissements."
+          },
+          {
+            "term": "Suivi post-clôture",
+            "text": "Vérification que l'ensemble des actes est enregistré et finalisé."
+          }
+        ]
+      },
+      {
+        "heading": "Bénéfices",
+        "intro": "",
+        "items": [
+          {
+            "term": "Efficacité accrue",
+            "text": "Un processus fluidifié, qui réduit délais et coûts."
+          },
+          {
+            "term": "Précision améliorée",
+            "text": "Un risque d'erreurs et d'incohérences nettement réduit."
+          },
+          {
+            "term": "Satisfaction client renforcée",
+            "text": "Une expérience positive pour l'acquéreur, le vendeur et les autres parties."
+          },
+          {
+            "term": "Risque réduit",
+            "text": "Moins de litiges, de retards et de difficultés réglementaires."
+          }
+        ]
+      }
+    ],
+    "conclusion": "Notre approche de la gestion des clôtures garantit un transfert de propriété fluide, efficace et exact. Notre expertise et nos bonnes pratiques permettent à nos clients de limiter les risques, d'améliorer la satisfaction des parties et de tenir les délais de leurs transactions immobilières."
   }
 }

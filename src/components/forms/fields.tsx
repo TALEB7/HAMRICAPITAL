@@ -176,7 +176,10 @@ export function SubmitButton({
     <button
       type="submit"
       disabled={pending}
-      className={`rounded-sm bg-brand px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-brand-hot disabled:cursor-not-allowed disabled:opacity-60 ${
+      // `shrink-0` : les libellés d'action par division sont longs (« Demander
+      // une consultation Private Equity ») et se retrouvaient comprimés sur
+      // trois lignes par le texte de confidentialité voisin.
+      className={`shrink-0 rounded-sm bg-brand px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-brand-hot disabled:cursor-not-allowed disabled:opacity-60 ${
         full ? "w-full" : ""
       }`}
     >
