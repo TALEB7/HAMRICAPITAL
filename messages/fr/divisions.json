@@ -1,51 +1,61 @@
 {
   "assetManagement": {
     "title": "Asset Management",
+    "cta": "Demander une offre en Asset Management",
     "tagline": "Une approche complète et intégrée pour faire croître le patrimoine dans la durée.",
     "summary": "L'Asset Management est une discipline spécialisée : le processus systématique d'achat, de vente et de gestion d'investissements destiné à accroître le patrimoine dans le temps, en tenant compte de la tolérance au risque et des objectifs de chaque client. Nos services offrent aux clients institutionnels et particuliers une approche complète et intégrée de la gestion de leurs investissements."
   },
   "wealthManagement": {
     "title": "Gestion de Patrimoine",
+    "cta": "Demander un accompagnement en Gestion de Patrimoine",
     "tagline": "Une approche complète et personnalisée de l'excellence financière.",
     "summary": "La Gestion de Patrimoine est un service de conseil en investissement sophistiqué, conçu pour répondre aux besoins financiers complexes des particuliers et familles fortunés. Notre équipe s'appuie sur une expertise en gestion d'investissement, planification financière, protection du patrimoine et services fiscaux et comptables."
   },
   "hedgeFunds": {
     "title": "Hedge Funds",
+    "cta": "Demander un accès aux Hedge Funds",
     "tagline": "Une recherche de rendement absolu pour investisseurs institutionnels et particuliers fortunés.",
     "summary": "Les Hedge Funds sont des véhicules d'investissement privés qui mutualisent les capitaux d'investisseurs institutionnels et de particuliers fortunés afin de générer des rendements absolus, quelles que soient les conditions de marché. Un hedge fund est une société en commandite d'investisseurs privés dont les fonds sont gérés par des gestionnaires professionnels."
   },
   "privateEquity": {
     "title": "Private Equity",
+    "cta": "Demander un entretien Private Equity",
     "tagline": "Acquérir, transformer et faire croître des entreprises pour créer de la valeur durable.",
     "summary": "Le Private Equity est une classe d'actifs distincte : des partenariats d'investissement acquièrent et gèrent des entreprises afin de générer des rendements par une revente ultérieure ou une introduction en bourse (IPO). Les sociétés de private equity gèrent ces fonds pour le compte d'investisseurs institutionnels et accrédités."
   },
   "ventureCapital": {
     "title": "Capital-Risque",
+    "cta": "Présenter votre startup",
     "tagline": "Financer les entreprises innovantes à fort potentiel, de l'amorçage à l'échelle.",
     "summary": "Le Capital-Risque (VC) est une forme de private equity qui finance les startups et petites entreprises à fort potentiel de croissance. Les investissements se font généralement en échange de titres de capital, avec pour objectif de générer un rendement lors d'une sortie."
   },
   "investmentBanking": {
     "title": "Banque d'Affaires",
+    "cta": "Demander nos services de Banque d'Affaires",
     "tagline": "Conseil stratégique et exécution d'opérations financières complexes.",
     "summary": "La Banque d'Affaires est une forme spécialisée de banque qui facilite les opérations financières de grande ampleur : fusions-acquisitions (M&A), introductions en bourse (IPO) et émissions de dette. Nous fournissons conseil stratégique et services financiers aux entreprises, gouvernements et institutions financières."
   },
   "realEstate": {
     "title": "Fonds Immobiliers & REITs",
+    "cta": "Demander nos solutions d'investissement immobilier",
     "tagline": "L'immobilier de rendement, sans acheter ni gérer directement les biens.",
     "summary": "Les Real Estate Investment Trusts (REITs) sont des sociétés qui détiennent, exploitent ou financent des actifs immobiliers de rendement dans divers secteurs. Ils permettent d'investir dans l'immobilier sans acheter, gérer ou financer directement les biens."
   },
   "financialEngineering": {
     "title": "Ingénierie Financière",
+    "cta": "Demander un appui en Ingénierie Financière",
     "tagline": "Mathématiques, statistiques et calcul appliqués à l'investissement et au risque.",
     "summary": "L'Ingénierie Financière est un domaine hautement spécialisé qui applique des techniques mathématiques, statistiques et computationnelles à l'analyse et à la gestion du risque financier. Elle combine mathématiques appliquées, statistiques, informatique, théorie financière et économie pour mener une analyse quantitative des marchés."
   },
   "businessDevelopment": {
     "title": "Développement Commercial",
+    "cta": "Demander un appui en Développement Commercial",
     "tagline": "Une approche stratégique de la croissance et de la rentabilité.",
     "summary": "Le Développement Commercial est un processus systématique de planification de la croissance future : identifier de nouvelles opportunités, nouer des partenariats stratégiques et créer de la valeur pour l'entreprise. Il suppose de comprendre son audience cible, les opportunités de marché et les canaux d'approche efficaces."
   },
   "construction": {
     "title": "Construction, Bâtiment & Travaux Publics",
+    "cta": "Demander une consultation Construction",
     "tagline": "Des services de construction complets pour les secteurs privé et public.",
     "summary": "Notre organisation est spécialisée dans les services de construction, couvrant les projets de bâtiment et de travaux publics, pour des clients privés et publics. Avec un engagement fort sur la qualité, la sécurité et la satisfaction client, nous livrons des solutions sur mesure adaptées aux besoins de chaque client."
   },
@@ -66,16 +76,19 @@
   },
   "agriculture": {
     "title": "Finance Agricole & Fermes d'Investissement",
+    "cta": "Demander des informations sur la Finance Agricole",
     "tagline": "Financer des chaînes de valeur alimentaires durables et rentables.",
     "summary": "La finance agricole joue un rôle vital : elle renforce les agriculteurs, améliore la sécurité alimentaire et favorise le développement de chaînes de valeur alimentaires durables. La demande mondiale de nourriture devant augmenter de 70 % d'ici 2050, ce qui exige au moins 80 milliards de dollars d'investissements annuels, notre action porte sur des services financiers de marché et le financement d'investissements verts de long terme."
   },
   "managementConsulting": {
     "title": "Conseil en Management",
+    "cta": "Demander une mission de conseil",
     "tagline": "Un accompagnement expert vers l'excellence opérationnelle.",
     "summary": "Nos services de Conseil en Management aident les entreprises à atteindre l'excellence en matière de performance, d'efficacité et de rentabilité. Notre équipe de consultants expérimentés apporte un accompagnement expert, un avis objectif et des solutions sur mesure face aux défis et opportunités propres à chaque organisation."
   },
   "closingManagement": {
     "title": "Closing Management",
+    "cta": "Demander un appui en Closing Management",
     "tagline": "Une approche complète pour des transactions immobilières sans accroc.",
     "summary": "Le Closing Management est une composante critique du processus de transaction immobilière : il exige une attention méticuleuse au détail, une communication efficace et une connaissance approfondie des exigences réglementaires. Notre approche garantit un transfert de propriété fluide, efficace et exact, qui limite les risques et améliore la satisfaction client."
   }

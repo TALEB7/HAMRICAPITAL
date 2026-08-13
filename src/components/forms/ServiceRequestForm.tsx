@@ -24,9 +24,12 @@ import {
 export function ServiceRequestForm({
   divisionSlug,
   divisionTitle,
+  cta,
 }: {
   divisionSlug: string;
   divisionTitle: string;
+  /** Libellé d'action propre à la division, ex. « Demander un accès aux Hedge Funds ». */
+  cta: string;
 }) {
   const t = useTranslations("forms");
   const common = useTranslations("common");
@@ -119,9 +122,7 @@ export function ServiceRequestForm({
       )}
 
       <div className="flex flex-col gap-4 sm:col-span-2 sm:flex-row sm:items-center">
-        <SubmitButton pending={status === "pending"}>
-          {common("requestService")}
-        </SubmitButton>
+        <SubmitButton pending={status === "pending"}>{cta}</SubmitButton>
         <p className="text-xs leading-relaxed text-muted">{t("privacy")}</p>
       </div>
     </form>

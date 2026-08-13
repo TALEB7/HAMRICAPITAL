@@ -1,6 +1,7 @@
 {
   "assetManagement": {
     "title": "Asset Management",
+    "cta": "Request Asset Management",
     "tagline": "A comprehensive and integrated approach to growing wealth over time.",
     "summary": "Asset Management is a specialized discipline that involves the systematic process of buying, selling, and managing investments to increase wealth over time, while considering specific risk tolerances and client objectives. Our asset management services provide institutional and individual clients with a comprehensive and integrated approach to managing their investments.",
     "sections": [
@@ -116,6 +117,7 @@
 
   "wealthManagement": {
     "title": "Wealth Management",
+    "cta": "Request Wealth Management",
     "tagline": "A comprehensive and personalized approach to financial excellence.",
     "summary": "Wealth Management is a sophisticated investment advisory service designed to address the complex financial needs of high-net-worth individuals and families. Our wealth management team provides a comprehensive and personalized approach to managing wealth, leveraging expertise in investment management, financial planning, wealth protection, and tax and accounting services.",
     "sections": [
@@ -201,6 +203,7 @@
 
   "hedgeFunds": {
     "title": "Hedge Funds",
+    "cta": "Request Hedge Fund Access",
     "tagline": "Absolute returns for institutional investors and high-net-worth individuals.",
     "summary": "Hedge Funds are private investment vehicles that pool capital from institutional investors and high-net-worth individuals to generate absolute returns, regardless of market conditions. A hedge fund is a limited partnership of private investors whose money is pooled and managed by professional fund managers.",
     "sections": [
@@ -286,6 +289,7 @@
 
   "privateEquity": {
     "title": "Private Equity",
+    "cta": "Request Private Equity Consultation",
     "tagline": "Acquiring, transforming and growing companies to create lasting value.",
     "summary": "Private Equity is a distinct asset class that involves investment partnerships acquiring and managing companies to generate returns through eventual sale or initial public offering (IPO). Private equity firms operate these investment funds on behalf of institutional and accredited investors.",
     "sections": [
@@ -379,6 +383,7 @@
 
   "ventureCapital": {
     "title": "Venture Capital",
+    "cta": "Pitch Your Startup",
     "tagline": "Backing innovative, high-growth businesses from seed to scale.",
     "summary": "Venture Capital (VC) is a form of private equity that provides financing to startup companies and small businesses with high growth potential. VC investments are typically made in exchange for equity in the company, with the goal of generating returns through eventual exit.",
     "sections": [
@@ -464,6 +469,7 @@
 
   "investmentBanking": {
     "title": "Investment Banking",
+    "cta": "Request Investment Banking Services",
     "tagline": "Strategic advice and execution on large, complex financial transactions.",
     "summary": "Investment Banking is a specialized form of banking that facilitates large, complex financial transactions such as Mergers and Acquisitions (M&A), Initial Public Offerings (IPOs), and debt issuances. We provide strategic advice and financial services to corporations, governments, and financial institutions.",
     "sections": [
@@ -549,6 +555,7 @@
 
   "realEstate": {
     "title": "Real Estate Funds & REITs",
+    "cta": "Request Real Estate Investment Options",
     "tagline": "Income-producing real estate, without directly buying or managing property.",
     "summary": "Real Estate Investment Trusts (REITs) are companies that own, operate, or finance income-producing real estate properties across various sectors. REITs provide individuals with an opportunity to invest in real estate without directly buying, managing, or financing properties.",
     "sections": [
@@ -633,6 +640,7 @@
 
   "financialEngineering": {
     "title": "Financial Engineering",
+    "cta": "Request Financial Engineering Support",
     "tagline": "Mathematics, statistics and computation applied to investment and risk.",
     "summary": "Financial Engineering is a highly specialized field that applies mathematical, statistical, and computational techniques to analyze and manage financial risk. It combines applied mathematics, statistics, computer science, financial theory, and economics to conduct quantitative analysis on financial markets.",
     "sections": [
@@ -690,6 +698,7 @@
 
   "businessDevelopment": {
     "title": "Business Development",
+    "cta": "Request Business Development Support",
     "tagline": "A strategic approach to growth and profitability.",
     "summary": "Business Development is a systematic process of planning for future growth by identifying new opportunities, forming strategic partnerships, and adding value to a company. It involves understanding the target audience, market opportunities, and effective outreach channels to drive success.",
     "sections": [
@@ -769,6 +778,7 @@
 
   "construction": {
     "title": "Construction, Building & Public Works",
+    "cta": "Request a Construction Consultation",
     "tagline": "Comprehensive construction services for private and public sector clients.",
     "summary": "Our organization specializes in providing comprehensive construction services, encompassing building and public works projects, to private and public sector clients. With a strong commitment to quality, safety, and client satisfaction, we deliver tailored construction solutions that meet the unique needs and objectives of each client.",
     "sections": [
@@ -1091,6 +1101,7 @@
 
   "agriculture": {
     "title": "Agriculture Finance & Investment Farms",
+    "cta": "Request Agriculture Finance Information",
     "tagline": "Financing sustainable food value chains and agricultural returns.",
     "summary": "Agriculture finance plays a vital role in empowering farmers, improving food security, and facilitating the development of sustainable food value chains. With global demand for food expected to increase by 70% by 2050, requiring at least $80 billion in annual investments, our work focuses on providing market-based financial services and funding long-term and green investments.",
     "sections": [
@@ -1166,6 +1177,7 @@
 
   "managementConsulting": {
     "title": "Management Consulting",
+    "cta": "Request a Consulting Engagement",
     "tagline": "Expert guidance for business excellence.",
     "summary": "Our Management Consulting services are designed to help businesses achieve excellence in performance, efficiency, and profitability. Our team of experienced consultants provides expert guidance, objective advice, and customized solutions to address unique business challenges and opportunities.",
     "sections": [
@@ -1245,6 +1257,7 @@
 
   "closingManagement": {
     "title": "Closing Management",
+    "cta": "Request Closing Management Support",
     "tagline": "A comprehensive approach to seamless real estate transactions.",
     "summary": "Closing Management is a critical component of the real estate transaction process, requiring meticulous attention to detail, effective communication, and a deep understanding of regulatory requirements. Our comprehensive approach ensures a seamless, efficient, and accurate transfer of ownership, minimizing risks and enhancing customer satisfaction.",
     "sections": [

@@ -53,6 +53,13 @@ export default async function DivisionPage(props: {
   const title = t(`${division.key}.title` as never);
   const summary = t(`${division.key}.summary` as never);
 
+  // Libellé d'action propre à la division ; repli sur le libellé générique
+  // tant qu'une langue ne l'a pas traduit.
+  const ctaKey = `${division.key}.cta`;
+  const cta = t.has(ctaKey as never)
+    ? t(ctaKey as never)
+    : tCommon("requestService");
+
   // Les sections détaillées ne sont pas encore traduites dans toutes les
   // langues : `t.has` évite d'afficher une clé brute si elles manquent.
   const hasSections = t.has(`${division.key}.sections` as never);
@@ -160,12 +167,13 @@ export default async function DivisionPage(props: {
         >
           <div className="container-hc max-w-3xl">
             <h2 className="rule-brand font-display text-3xl text-bright">
-              {tCommon("requestService")}
+              {cta}
             </h2>
             <div className="mt-10">
               <ServiceRequestForm
                 divisionSlug={division.slug}
                 divisionTitle={title}
+                cta={cta}
               />
             </div>
           </div>

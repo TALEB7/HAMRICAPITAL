@@ -14,6 +14,14 @@ export function DivisionCard({ division }: { division: Division }) {
   const common = useTranslations("common");
   const editorial = division.kind === "editorial";
 
+  // Chaque division a son propre libellé d'action (« Demander un accès aux
+  // Hedge Funds » plutôt qu'un générique) ; le libellé commun reste le repli
+  // pour une langue où il n'est pas encore traduit.
+  const ctaKey = `${division.key}.cta`;
+  const divisionCta = t.has(ctaKey as never)
+    ? t(ctaKey as never)
+    : common("requestService");
+
   return (
     <Link
       href={`/services/${division.slug}`}
@@ -44,7 +52,7 @@ export function DivisionCard({ division }: { division: Division }) {
             : "text-muted group-hover:text-brand-hot"
         }`}
       >
-        {editorial ? common("learnMore") : common("requestService")}
+        {editorial ? common("learnMore") : divisionCta}
         <span aria-hidden className="rtl:rotate-180">
           →
         </span>
