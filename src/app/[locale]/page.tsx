@@ -4,10 +4,10 @@ import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import { alternatesFor } from "@/lib/metadata";
 import { HeroVideo } from "@/components/HeroVideo";
+import { CeoQuote } from "@/components/CeoQuote";
 import { Counter } from "@/components/Counter";
 import { DivisionCard } from "@/components/DivisionCard";
 import { divisions, flagshipDivisions } from "@/content/divisions";
-import { site } from "@/content/site";
 
 export async function generateMetadata(props: {
   params: Promise<{ locale: Locale }>;
@@ -105,21 +105,7 @@ export default async function HomePage(props: {
 
       {/* ---------- Citation du CEO ---------- */}
       <section className="border-y border-hairline bg-surface py-section">
-        <div className="container-hc">
-          <p className="eyebrow">{t("quote.eyebrow")}</p>
-          <figure className="mt-8 border-s-2 border-brand ps-6 md:ps-10">
-            <blockquote className="max-w-4xl font-display text-xl leading-relaxed text-bright md:text-2xl">
-              “{t("quote.text")}”
-            </blockquote>
-            <figcaption className="mt-8 text-sm">
-              <span className="font-medium text-data">{t("quote.author")}</span>
-              <span className="text-muted"> — {t("quote.role")}</span>
-            </figcaption>
-          </figure>
-          <p className="mt-12 font-display text-2xl italic text-brand-hot">
-            “{site.tagline}”
-          </p>
-        </div>
+        <CeoQuote />
       </section>
 
       {/* ---------- Divisions phares ---------- */}

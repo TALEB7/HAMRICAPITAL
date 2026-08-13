@@ -3,7 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing, type Locale } from "@/i18n/routing";
 import { alternatesFor } from "@/lib/metadata";
 import { PageHeader } from "@/components/PageHeader";
-import { site } from "@/content/site";
+import { CeoQuote } from "@/components/CeoQuote";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -88,22 +88,7 @@ export default async function AboutPage(props: {
 
       {/* Citation du CEO */}
       <section className="py-section">
-        <div className="container-hc">
-          <figure className="border-s-2 border-brand ps-6 md:ps-10">
-            <blockquote className="max-w-4xl font-display text-xl leading-relaxed text-bright md:text-2xl">
-              “{tHome("quote.text")}”
-            </blockquote>
-            <figcaption className="mt-8 text-sm">
-              <span className="font-medium text-data">
-                {tHome("quote.author")}
-              </span>
-              <span className="text-muted"> — {tHome("quote.role")}</span>
-            </figcaption>
-          </figure>
-          <p className="mt-12 font-display text-2xl italic text-brand-hot">
-            “{site.tagline}”
-          </p>
-        </div>
+        <CeoQuote />
       </section>
     </main>
   );

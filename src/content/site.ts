@@ -8,6 +8,8 @@ export const site = {
   /** Remplacer par le domaine définitif une fois arbitré (voir .env.example). */
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://hamricapital.com",
   logo: "/brand/hamri-capital-logo.png",
+  /** Portrait du CEO, recadré et compressé depuis logo/ceo-omar-hamri.png. */
+  ceoPhoto: "/brand/ceo-omar-hamri.webp",
 } as const;
 
 /** Connect With Us — le footer masque toute entrée dont l'URL est vide. */
