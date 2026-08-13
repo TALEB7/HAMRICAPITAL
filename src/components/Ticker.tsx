@@ -35,8 +35,8 @@ export function Ticker() {
       </div>
 
       {/* Fondu sur les bords pour que les valeurs n'apparaissent pas coupées. */}
-      <div className="pointer-events-none absolute inset-y-0 start-0 w-16 bg-gradient-to-r from-ink to-transparent" />
-      <div className="pointer-events-none absolute inset-y-0 end-0 w-16 bg-gradient-to-l from-ink to-transparent" />
+      <div className="pointer-events-none absolute inset-y-0 start-0 w-16 bg-linear-to-r from-ink to-transparent" />
+      <div className="pointer-events-none absolute inset-y-0 end-0 w-16 bg-linear-to-l from-ink to-transparent" />
     </div>
   );
 }

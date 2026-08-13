@@ -7,7 +7,8 @@
       "Bash(git remote *)",
       "Bash(git ls-remote *)",
       "Bash(echo \"exit:$?\")",
-      "Bash(cd \"c:/Users/PC/Desktop/hamrix\" && sed -i 's/font-\\\\[family-name:var\\(--font-display\\)\\\\]/font-display/g' src/components/*.tsx src/app/\\\\[locale\\\\]/*.tsx && grep -rn \"font-display\" src/components/ | head)"
+      "Bash(cd \"c:/Users/PC/Desktop/hamrix\" && sed -i 's/font-\\\\[family-name:var\\(--font-display\\)\\\\]/font-display/g' src/components/*.tsx src/app/\\\\[locale\\\\]/*.tsx && grep -rn \"font-display\" src/components/ | head)",
+      "Bash(git push *)"
     ],
     "additionalDirectories": [
       "C:\\Users\\PC\\Desktop\\hamrix\\src\\components"

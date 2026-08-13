@@ -32,6 +32,12 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
+
+# Rushes vidéo 4K bruts (~390 Mo) : sources du montage du hero, gardées en
+# local. Le résultat encodé (public/video/hero.mp4) est, lui, versionné.
+# Régénérer avec : bash scripts/build-hero-video.sh
+/logo
 
 # vercel
 .vercel
@@ -39,3 +45,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.preview/
