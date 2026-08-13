@@ -65,19 +65,22 @@ export function Header() {
           : "border-b border-transparent bg-transparent"
       }`}
     >
-      <div className="container-hc flex h-20 items-center justify-between gap-6">
+      <div className="container-hc flex h-24 items-center gap-8">
         <Logo showTagline={false} />
 
+        {/* Libellés en demi-gras et resserrés, à la manière des grandes
+            maisons de gestion : la barre doit se lire comme un sommaire,
+            pas comme une liste de liens. */}
         <nav
           aria-label={t("menu")}
-          className="hidden items-center gap-7 lg:flex"
+          className="hidden flex-1 items-center gap-8 lg:flex"
         >
           {navItems.map((item) => (
             <Link
               key={item.key}
               href={item.href}
               aria-current={isActive(item.href) ? "page" : undefined}
-              className={`relative text-sm transition-colors after:absolute after:-bottom-1.5 after:start-0 after:h-px after:bg-brand after:transition-all ${
+              className={`relative text-[0.9375rem] font-semibold tracking-tight transition-colors after:absolute after:-bottom-2 after:start-0 after:h-0.5 after:bg-brand after:transition-all ${
                 isActive(item.href)
                   ? "text-bright after:w-full"
                   : "text-body after:w-0 hover:text-bright hover:after:w-full"
@@ -88,14 +91,14 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 lg:ms-auto">
           <div className="hidden sm:block">
             <LanguageSwitcher />
           </div>
 
           <Link
             href="/advice"
-            className="hidden rounded-sm bg-brand px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-brand-hot lg:inline-block"
+            className="hidden rounded-full bg-brand px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-hot lg:inline-block"
           >
             {t("advice")}
           </Link>
@@ -118,7 +121,9 @@ export function Header() {
       {open && (
         <div
           id="mobile-nav"
-          className="fixed inset-x-0 bottom-0 top-20 overflow-y-auto border-t border-hairline bg-ink lg:hidden"
+          // `top-24` doit suivre la hauteur de la barre ci-dessus (h-24),
+          // faute de quoi le menu recouvre le logo ou laisse un vide.
+          className="fixed inset-x-0 bottom-0 top-24 overflow-y-auto border-t border-hairline bg-ink lg:hidden"
         >
           <nav className="container-hc flex flex-col gap-1 py-8">
             {[...navItems, ...mobileOnlyItems].map((item) => (

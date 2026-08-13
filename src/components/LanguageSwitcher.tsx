@@ -32,7 +32,10 @@ export function LanguageSwitcher() {
         value={locale}
         onChange={(e) => onChange(e.target.value)}
         disabled={isPending}
-        className="cursor-pointer appearance-none rounded-sm border border-hairline bg-transparent py-1.5 ps-3 pe-8 text-xs uppercase tracking-widest text-body transition-colors hover:border-brand hover:text-bright focus:border-brand disabled:opacity-50"
+        // Pilule bordée, pendant du bouton d'action : chez les gestionnaires
+        // d'actifs, le sélecteur de langue est traité comme une action de
+        // barre à part entière, pas comme un réglage discret.
+        className="cursor-pointer appearance-none rounded-full border border-hairline bg-transparent py-2.5 ps-4 pe-9 text-xs font-semibold uppercase tracking-widest text-body transition-colors hover:border-brand hover:text-bright focus:border-brand disabled:opacity-50"
       >
         {locales.map((l) => (
           <option key={l} value={l} className="bg-elevated text-body">
@@ -42,7 +45,7 @@ export function LanguageSwitcher() {
       </select>
       <span
         aria-hidden
-        className="pointer-events-none absolute end-3 text-[0.6rem] text-muted"
+        className="pointer-events-none absolute end-4 text-[0.6rem] text-muted"
       >
         ▼
       </span>
