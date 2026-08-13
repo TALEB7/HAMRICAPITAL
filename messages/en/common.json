@@ -176,6 +176,114 @@
     "legal": "Legal Notice",
     "privacy": "Privacy Policy"
   },
+  "careers": {
+    "eyebrow": "Internships & Careers",
+    "title": "Build your boat with us",
+    "intro": "We look for people who want to learn fast, take responsibility early, and care about the work. Tell us who you are and which part of HAMRI CAPITAL interests you.",
+    "formTitle": "Apply for an internship"
+  },
+  "advice": {
+    "eyebrow": "Request Advice",
+    "title": "Tell us about your objectives",
+    "intro": "Whether you are weighing an investment, structuring a project, or simply exploring your options, our team will point you to the right division and come back to you.",
+    "formTitle": "Your request"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Get in touch",
+    "intro": "For general enquiries, press, partnerships or complaints. Your message reaches the department best placed to answer it.",
+    "formTitle": "Send us a message",
+    "departmentsTitle": "Departments",
+    "departments": {
+      "info": "Service requests and advice",
+      "hr": "Internships, applications and careers",
+      "legal": "General enquiries and complaints",
+      "ceo": "The Community, partnerships and press"
+    },
+    "addressesNote": "Email addresses are published once the company domain is finalised."
+  },
+  "resources": {
+    "eyebrow": "Resources",
+    "title": "Useful market links",
+    "intro": "The exchanges, trading platforms and financial media we follow. All links open in a new tab and lead to third-party sites, which HAMRI CAPITAL does not operate.",
+    "groups": {
+      "exchanges": "Stock exchanges",
+      "trading": "Trading platforms & data",
+      "media": "Financial media"
+    }
+  },
+  "legal": {
+    "eyebrow": "Legal",
+    "title": "Legal Notice",
+    "reviewNote": "This page is a working draft and must be reviewed by legal counsel before the site goes live.",
+    "publisherTitle": "Publisher",
+    "publisher": "HAMRI CAPITAL LLC, Investment Management Company. Registered office, company registration number and share capital to be completed.",
+    "directorTitle": "Publication director",
+    "director": "Omar Hamri, CEO.",
+    "hostingTitle": "Hosting",
+    "hosting": "Hosting provider name and address to be completed once deployment is confirmed.",
+    "ipTitle": "Intellectual property",
+    "ip": "The HAMRI CAPITAL name, logo and all content on this site are protected. Reproduction without prior written permission is prohibited.",
+    "disclaimerTitle": "No investment advice",
+    "disclaimer": "The content of this site is provided for information purposes only. It does not constitute investment advice, a recommendation, or an offer to buy or sell any financial instrument. Past performance is not indicative of future results."
+  },
+  "privacy": {
+    "eyebrow": "Privacy",
+    "title": "Privacy Policy",
+    "reviewNote": "This page is a working draft and must be reviewed by legal counsel before the site goes live.",
+    "collectTitle": "What we collect",
+    "collect": "Only what you type into our forms: your name, email address, phone number, country, company, and your message — plus your résumé if you apply for an internship.",
+    "purposeTitle": "Why we collect it",
+    "purpose": "Solely to answer your request. Your details are sent by email to the relevant HAMRI CAPITAL department and are not used for any other purpose.",
+    "storageTitle": "Storage",
+    "storage": "This site has no user accounts and no database. Form submissions exist only as emails in the receiving department's mailbox.",
+    "thirdPartyTitle": "Third parties",
+    "thirdParty": "We use Resend to deliver form emails and Google reCAPTCHA to filter automated submissions. Both process the data strictly for those purposes.",
+    "rightsTitle": "Your rights",
+    "rights": "You may ask us at any time to access, correct or delete the details you have sent us. Write to the Legal department using the contact form.",
+    "cookiesTitle": "Cookies",
+    "cookies": "This site sets no advertising or analytics cookies. Your language preference is stored to keep you on the version you chose."
+  },
+  "forms": {
+    "labels": {
+      "name": "Full name",
+      "company": "Company",
+      "email": "Email address",
+      "phone": "Phone number",
+      "country": "Country",
+      "school": "School / Programme",
+      "field": "Field of interest",
+      "subject": "Subject",
+      "message": "Message",
+      "cv": "Résumé / CV",
+      "division": "Division concerned"
+    },
+    "optional": "optional",
+    "cvHint": "PDF or Word document, 5 MB maximum.",
+    "privacy": "Your details are sent to the relevant HAMRI CAPITAL department and used only to answer your request.",
+    "errors": {
+      "nameRequired": "Please enter your full name.",
+      "emailInvalid": "Please enter a valid email address.",
+      "phoneRequired": "Please enter a phone number we can reach you on.",
+      "countryRequired": "Please enter your country.",
+      "schoolRequired": "Please enter your school or programme.",
+      "fieldRequired": "Please tell us which field interests you.",
+      "subjectRequired": "Please enter a subject.",
+      "messageRequired": "Please write at least a few words.",
+      "cvRequired": "Please attach your résumé.",
+      "cvTooLarge": "This file is over 5 MB. Please attach a smaller one.",
+      "cvType": "Please attach a PDF or Word document.",
+      "rateLimited": "You have sent several messages already. Please try again in a few minutes.",
+      "recaptchaFailed": "We could not verify that you are human. Please reload the page and try again.",
+      "sendFailed": "Your message could not be sent. Please try again, or email us directly.",
+      "generic": "Something went wrong. Please try again."
+    },
+    "success": {
+      "title": "Thank you — your message is on its way.",
+      "body": "The relevant department has received your request and will come back to you shortly.",
+      "notify": "You are on the list. We will let you know as soon as the Community opens."
+    }
+  },
   "common": {
     "requestService": "Request this service",
     "learnMore": "Learn more",

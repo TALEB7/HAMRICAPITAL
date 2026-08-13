@@ -176,6 +176,114 @@
     "legal": "Mentions légales",
     "privacy": "Politique de confidentialité"
   },
+  "careers": {
+    "eyebrow": "Stages & Carrières",
+    "title": "Construisez votre bateau avec nous",
+    "intro": "Nous cherchons des personnes qui veulent apprendre vite, prendre des responsabilités tôt, et se soucier du travail bien fait. Dites-nous qui vous êtes et quelle partie de HAMRI CAPITAL vous intéresse.",
+    "formTitle": "Postuler à un stage"
+  },
+  "advice": {
+    "eyebrow": "Demander un conseil",
+    "title": "Parlez-nous de vos objectifs",
+    "intro": "Que vous étudiiez un investissement, structuriez un projet ou exploriez simplement vos options, notre équipe vous orientera vers la bonne division et reviendra vers vous.",
+    "formTitle": "Votre demande"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Nous écrire",
+    "intro": "Pour toute demande générale, presse, partenariat ou réclamation. Votre message arrive au département le mieux placé pour y répondre.",
+    "formTitle": "Envoyez-nous un message",
+    "departmentsTitle": "Départements",
+    "departments": {
+      "info": "Demandes de service et de conseil",
+      "hr": "Stages, candidatures et carrières",
+      "legal": "Demandes générales et réclamations",
+      "ceo": "La Communauté, partenariats et presse"
+    },
+    "addressesNote": "Les adresses email seront publiées une fois le domaine de la société arbitré."
+  },
+  "resources": {
+    "eyebrow": "Ressources",
+    "title": "Liens utiles marché",
+    "intro": "Les places boursières, plateformes de trading et médias financiers que nous suivons. Tous les liens s'ouvrent dans un nouvel onglet et mènent à des sites tiers, que HAMRI CAPITAL n'exploite pas.",
+    "groups": {
+      "exchanges": "Places boursières",
+      "trading": "Plateformes de trading & données",
+      "media": "Médias financiers"
+    }
+  },
+  "legal": {
+    "eyebrow": "Légal",
+    "title": "Mentions légales",
+    "reviewNote": "Cette page est un projet de travail : elle doit être relue par un conseil juridique avant la mise en ligne.",
+    "publisherTitle": "Éditeur",
+    "publisher": "HAMRI CAPITAL LLC, société de gestion d'investissement. Siège social, numéro d'immatriculation et capital social à compléter.",
+    "directorTitle": "Directeur de la publication",
+    "director": "Omar Hamri, CEO.",
+    "hostingTitle": "Hébergement",
+    "hosting": "Nom et adresse de l'hébergeur à compléter une fois le déploiement arrêté.",
+    "ipTitle": "Propriété intellectuelle",
+    "ip": "La dénomination HAMRI CAPITAL, le logo et l'ensemble des contenus de ce site sont protégés. Toute reproduction sans autorisation écrite préalable est interdite.",
+    "disclaimerTitle": "Absence de conseil en investissement",
+    "disclaimer": "Le contenu de ce site est fourni à titre d'information uniquement. Il ne constitue ni un conseil en investissement, ni une recommandation, ni une offre d'achat ou de vente d'un instrument financier. Les performances passées ne préjugent pas des performances futures."
+  },
+  "privacy": {
+    "eyebrow": "Confidentialité",
+    "title": "Politique de confidentialité",
+    "reviewNote": "Cette page est un projet de travail : elle doit être relue par un conseil juridique avant la mise en ligne.",
+    "collectTitle": "Ce que nous collectons",
+    "collect": "Uniquement ce que vous saisissez dans nos formulaires : nom, adresse email, téléphone, pays, société et message — ainsi que votre CV si vous postulez à un stage.",
+    "purposeTitle": "Pourquoi nous le collectons",
+    "purpose": "Uniquement pour répondre à votre demande. Vos coordonnées sont transmises par email au département HAMRI CAPITAL concerné et ne servent à aucun autre usage.",
+    "storageTitle": "Conservation",
+    "storage": "Ce site ne comporte ni compte utilisateur ni base de données. Les envois de formulaires n'existent que sous forme d'emails dans la boîte du département destinataire.",
+    "thirdPartyTitle": "Tiers",
+    "thirdParty": "Nous utilisons Resend pour l'acheminement des emails de formulaires et Google reCAPTCHA pour filtrer les envois automatisés. Ces deux services traitent les données strictement à ces fins.",
+    "rightsTitle": "Vos droits",
+    "rights": "Vous pouvez à tout moment nous demander d'accéder aux données que vous nous avez transmises, de les corriger ou de les supprimer. Écrivez au département Legal via le formulaire de contact.",
+    "cookiesTitle": "Cookies",
+    "cookies": "Ce site ne dépose aucun cookie publicitaire ni de mesure d'audience. Votre préférence de langue est conservée pour vous maintenir sur la version que vous avez choisie."
+  },
+  "forms": {
+    "labels": {
+      "name": "Nom complet",
+      "company": "Société",
+      "email": "Adresse email",
+      "phone": "Téléphone",
+      "country": "Pays",
+      "school": "École / Formation",
+      "field": "Domaine souhaité",
+      "subject": "Sujet",
+      "message": "Message",
+      "cv": "CV",
+      "division": "Division concernée"
+    },
+    "optional": "facultatif",
+    "cvHint": "Document PDF ou Word, 5 Mo maximum.",
+    "privacy": "Vos coordonnées sont transmises au département HAMRI CAPITAL concerné et servent uniquement à répondre à votre demande.",
+    "errors": {
+      "nameRequired": "Merci d'indiquer votre nom complet.",
+      "emailInvalid": "Merci d'indiquer une adresse email valide.",
+      "phoneRequired": "Merci d'indiquer un numéro où vous joindre.",
+      "countryRequired": "Merci d'indiquer votre pays.",
+      "schoolRequired": "Merci d'indiquer votre école ou votre formation.",
+      "fieldRequired": "Merci de préciser le domaine qui vous intéresse.",
+      "subjectRequired": "Merci d'indiquer un sujet.",
+      "messageRequired": "Merci d'écrire au moins quelques mots.",
+      "cvRequired": "Merci de joindre votre CV.",
+      "cvTooLarge": "Ce fichier dépasse 5 Mo. Merci d'en joindre un plus léger.",
+      "cvType": "Merci de joindre un document PDF ou Word.",
+      "rateLimited": "Vous avez déjà envoyé plusieurs messages. Merci de réessayer dans quelques minutes.",
+      "recaptchaFailed": "Nous n'avons pas pu vérifier que vous êtes une personne réelle. Rechargez la page et réessayez.",
+      "sendFailed": "Votre message n'a pas pu être envoyé. Réessayez, ou écrivez-nous directement.",
+      "generic": "Une erreur est survenue. Merci de réessayer."
+    },
+    "success": {
+      "title": "Merci — votre message part à l'instant.",
+      "body": "Le département concerné a bien reçu votre demande et reviendra vers vous rapidement.",
+      "notify": "Vous êtes inscrit. Nous vous préviendrons dès l'ouverture de la Communauté."
+    }
+  },
   "common": {
     "requestService": "Demander ce service",
     "learnMore": "En savoir plus",

@@ -57,14 +57,9 @@ export async function generateMetadata(props: {
       locale,
       type: "website",
     },
-    alternates: {
-      canonical: `/${locale}`,
-      // hreflang pour chaque langue + repli x-default sur l'anglais.
-      languages: {
-        ...Object.fromEntries(routing.locales.map((l) => [l, `/${l}`])),
-        "x-default": `/${routing.defaultLocale}`,
-      },
-    },
+    // Pas d'`alternates` ici : posé sur le layout, il s'appliquerait à toutes
+    // les sous-pages et ferait pointer leurs hreflang vers l'accueil. Chaque
+    // page déclare les siens via `alternatesFor`.
   };
 }
 

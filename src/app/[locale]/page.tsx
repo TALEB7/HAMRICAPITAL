@@ -1,17 +1,26 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
+import { alternatesFor } from "@/lib/metadata";
 import { HeroVideo } from "@/components/HeroVideo";
 import { Counter } from "@/components/Counter";
 import { DivisionCard } from "@/components/DivisionCard";
 import { divisions, flagshipDivisions } from "@/content/divisions";
 import { site } from "@/content/site";
 
+export async function generateMetadata(props: {
+  params: Promise<{ locale: Locale }>;
+}): Promise<Metadata> {
+  const { locale } = await props.params;
+  return { alternates: alternatesFor(locale) };
+}
+
 export default async function HomePage(props: {
-  params: Promise<{ locale: string }>;
+  params: Promise<{ locale: Locale }>;
 }) {
   const { locale } = await props.params;
-  setRequestLocale(locale as Locale);
+  setRequestLocale(locale);
 
   const t = await getTranslations("home");
   const tIndustries = await getTranslations("industries");

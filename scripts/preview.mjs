@@ -76,6 +76,9 @@ for (const vp of viewports) {
         // On ne retient que ce qui dépasse réellement, en ignorant les
         // éléments volontairement masqués par un parent en overflow-hidden.
         if (box.right <= limit + 1 && box.left >= -1) continue;
+        // Éléments volontairement rejetés hors écran (champ piège anti-robot) :
+        // ils ne créent aucune barre de défilement.
+        if (box.right < -100) continue;
         const style = getComputedStyle(el);
         if (style.visibility === "hidden" || style.display === "none") continue;
         let clipped = false;
