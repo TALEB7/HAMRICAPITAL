@@ -3,7 +3,11 @@
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useTranslations } from "next-intl";
-import { internshipSchema, type Internship } from "@/lib/forms";
+import {
+  internshipSchema,
+  type Internship,
+  type InternshipInput,
+} from "@/lib/forms";
 import { useFormPost } from "./useFormPost";
 import {
   TextField,
@@ -25,12 +29,14 @@ export function InternshipForm() {
     handleSubmit,
     setError,
     formState: { errors },
-  } = useForm<Internship>({
+  } = useForm<InternshipInput, unknown, Internship>({
     resolver: zodResolver(internshipSchema),
     defaultValues: { kind: "internship" },
   });
 
-  const { status, errorKey, submit } = useFormPost<Internship>("internship");
+  const { status, errorKey, submit } = useFormPost<Internship, InternshipInput>(
+    "internship",
+  );
 
   if (status === "success") {
     return (
@@ -87,10 +93,11 @@ export function InternshipForm() {
           label={t("labels.cv")}
           hint={t("cvHint")}
           accept=".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-          // `setValueAs` extrait le fichier de la FileList : le schéma Zod
-          // valide un File, pas la liste renvoyée par le navigateur.
+          // Pas de `setValueAs` ici : sur un champ fichier, il reçoit la
+          // propriété `value` de l'input (« C:\fakepath\… ») et non la
+          // FileList. C'est le schéma qui ramène FileList et File au même type.
           error={errors.cv}
-          {...register("cv", { setValueAs: (v: FileList | File) => (v instanceof FileList ? v[0] : v) })}
+          {...register("cv")}
         />
       </div>
       <div className="sm:col-span-2">

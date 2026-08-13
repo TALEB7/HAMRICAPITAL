@@ -48,11 +48,20 @@ export const internshipSchema = z.object({
   school: z.string().trim().min(2, "schoolRequired").max(160),
   field: z.string().trim().min(2, "fieldRequired").max(160),
   message: z.string().trim().max(5000).optional().or(z.literal("")),
-  cv: z
-    .instanceof(File, { message: "cvRequired" })
-    .refine((f) => f.size > 0, "cvRequired")
-    .refine((f) => f.size <= CV_MAX_BYTES, "cvTooLarge")
-    .refine((f) => CV_TYPES.includes(f.type), "cvType"),
+  // Le navigateur remet une `FileList`, le serveur un `File` (issu de
+  // FormData) : on ramène les deux au même type avant de valider. Le garde
+  // `typeof FileList` est indispensable — ce type n'existe pas sous Node.
+  cv: z.preprocess(
+    (value) =>
+      typeof FileList !== "undefined" && value instanceof FileList
+        ? value[0]
+        : value,
+    z
+      .instanceof(File, { message: "cvRequired" })
+      .refine((f) => f.size > 0, "cvRequired")
+      .refine((f) => f.size <= CV_MAX_BYTES, "cvTooLarge")
+      .refine((f) => CV_TYPES.includes(f.type), "cvType"),
+  ),
 });
 
 /** Demande de conseil. */
@@ -91,7 +100,14 @@ export const formSchema = z.discriminatedUnion("kind", [
 export type FormKind = z.infer<typeof formSchema>["kind"];
 export type FormPayload = z.infer<typeof formSchema>;
 export type ServiceRequest = z.infer<typeof serviceRequestSchema>;
-export type Internship = z.infer<typeof internshipSchema>;
+
+/**
+ * Le CV passe par un `preprocess` : ce que le formulaire détient (`FileList`)
+ * n'est donc pas ce que le schéma produit (`File`). Les deux types sont
+ * exposés séparément — React Hook Form a besoin des deux.
+ */
+export type InternshipInput = z.input<typeof internshipSchema>;
+export type Internship = z.output<typeof internshipSchema>;
 export type Advice = z.infer<typeof adviceSchema>;
 export type Contact = z.infer<typeof contactSchema>;
 export type Notify = z.infer<typeof notifySchema>;

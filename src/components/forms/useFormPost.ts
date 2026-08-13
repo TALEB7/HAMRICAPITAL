@@ -16,12 +16,18 @@ type Status = "idle" | "pending" | "success" | "error";
  * les erreurs de validation du serveur sur les champs concernés — de sorte
  * qu'une validation contournée côté client s'affiche quand même correctement.
  */
-export function useFormPost<T extends FieldValues>(kind: FormKind) {
+export function useFormPost<
+  TValues extends FieldValues,
+  /** Type des valeurs détenues par le formulaire, quand il diffère du type
+   *  validé — c'est le cas du CV, `FileList` à la saisie et `File` après
+   *  validation. */
+  TInput extends FieldValues = TValues,
+>(kind: FormKind) {
   const locale = useLocale();
   const [status, setStatus] = useState<Status>("idle");
   const [errorKey, setErrorKey] = useState<string>("generic");
 
-  async function submit(values: T, setError: UseFormSetError<T>) {
+  async function submit(values: TValues, setError: UseFormSetError<TInput>) {
     setStatus("pending");
 
     const body = new FormData();
@@ -57,7 +63,7 @@ export function useFormPost<T extends FieldValues>(kind: FormKind) {
 
       if (result.fields) {
         for (const [field, message] of Object.entries(result.fields)) {
-          setError(field as Path<T>, { type: "server", message });
+          setError(field as Path<TInput>, { type: "server", message });
         }
       }
 

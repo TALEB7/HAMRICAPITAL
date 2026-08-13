@@ -2,7 +2,16 @@
 
 import { useId } from "react";
 import { useTranslations } from "next-intl";
-import type { FieldError } from "react-hook-form";
+import type { FieldError, FieldErrorsImpl, Merge } from "react-hook-form";
+
+/**
+ * Erreur telle que React Hook Form la remonte. Le champ CV passe par un
+ * `preprocess` Zod, ce qui donne à son erreur une forme composite : les deux
+ * variantes portent un `message`, seul élément dont ces composants ont besoin.
+ */
+type AnyFieldError =
+  | FieldError
+  | Merge<FieldError, FieldErrorsImpl<Record<string, unknown>>>;
 
 /**
  * Champs de formulaire partagés par les cinq formulaires du site.
@@ -15,9 +24,11 @@ import type { FieldError } from "react-hook-form";
 
 function useFieldError() {
   const t = useTranslations("forms.errors");
-  return (error?: FieldError) => {
+  return (error?: AnyFieldError): string | null => {
     if (!error) return null;
-    const key = error.message;
+    // Sur un champ composite, `message` peut lui-même être une erreur
+    // imbriquée : on ne retient que les messages réellement textuels.
+    const key = typeof error.message === "string" ? error.message : "";
     if (!key) return t("generic");
     // Une clé inconnue (message brut d'un navigateur, par exemple) est
     // affichée telle quelle plutôt que remplacée par un texte générique.
@@ -73,7 +84,7 @@ function Shell({
 
 type BaseProps = {
   label: string;
-  error?: FieldError;
+  error?: AnyFieldError;
   optional?: boolean;
   hint?: string;
 };
