@@ -1,11 +1,7 @@
 {
-  "assetManagement": {
-    "title": "资产管理",
-    "tagline": "以全面整合的方式实现财富的长期增长。"
-  },
-  "wealthManagement": {
-    "title": "财富管理",
-    "tagline": "全面而个性化的财务卓越之道。"
+  "assetWealthManagement": {
+    "title": "资产与财富管理",
+    "tagline": "以全面整合的方式实现财富的增长与保全。"
   },
   "hedgeFunds": {
     "title": "对冲基金",
@@ -19,48 +15,20 @@
     "title": "风险投资",
     "tagline": "从种子期到规模化，支持高成长创新企业。"
   },
+  "realEstate": {
+    "title": "房地产投资信托（REITs）",
+    "tagline": "无需直接购置或管理，即可投资收益型房地产。"
+  },
   "investmentBanking": {
     "title": "投资银行",
     "tagline": "为复杂金融交易提供战略建议与执行。"
   },
-  "realEstate": {
-    "title": "房地产基金与 REITs",
-    "tagline": "无需直接购置或管理，即可投资收益型房地产。"
+  "cryptoAssets": {
+    "title": "数字资产",
+    "tagline": "以该资产类别所需的风控标准，构建结构化敞口。"
   },
-  "financialEngineering": {
-    "title": "金融工程",
-    "tagline": "以数学、统计与计算方法服务投资与风险管理。"
-  },
-  "businessDevelopment": {
-    "title": "业务发展",
-    "tagline": "推动增长与盈利的战略方法。"
-  },
-  "construction": {
-    "title": "建筑工程与公共工程",
-    "tagline": "面向公私部门客户的综合施工服务。"
-  },
-  "forex": {
-    "title": "外汇交易",
-    "tagline": "全球规模最大、流动性最强的市场——教育性内容。"
-  },
-  "crypto": {
-    "title": "加密货币",
-    "tagline": "数字货币、区块链与去中心化市场——教育性内容。"
-  },
-  "stockMarket": {
-    "title": "股票市场",
-    "tagline": "公开市场如何运作——教育性内容。"
-  },
-  "agriculture": {
-    "title": "农业金融与投资农场",
-    "tagline": "为可持续食品价值链提供融资。"
-  },
-  "managementConsulting": {
-    "title": "管理咨询",
-    "tagline": "以专业指导实现卓越经营。"
-  },
-  "closingManagement": {
-    "title": "交割管理",
-    "tagline": "确保房地产交易顺畅完成的全流程方法。"
+  "accountingFinance": {
+    "title": "会计与财务",
+    "tagline": "为成长型企业提供记账、报表与财务管控。"
   }
 }

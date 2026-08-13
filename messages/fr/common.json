@@ -1,7 +1,7 @@
 {
   "meta": {
     "titleSuffix": "Société de gestion d'investissement",
-    "description": "HAMRI CAPITAL est une société de gestion d'investissement de premier plan : asset management, gestion de patrimoine, hedge funds, private equity, capital-risque, banque d'affaires, fonds immobiliers et REITs, ingénierie financière, développement commercial et BTP."
+    "description": "HAMRI CAPITAL est une société de gestion d'investissement structurée autour de huit piliers : gestion d'actifs et de patrimoine, hedge funds, private equity, capital-risque, fonds immobiliers, investment banking, actifs numériques, et comptabilité et finance."
   },
   "nav": {
     "home": "Accueil",
@@ -21,14 +21,14 @@
     "hero": {
       "eyebrow": "Société de gestion d'investissement",
       "title": "Créez votre bateau et rejoignez notre traversée",
-      "subtitle": "HAMRI CAPITAL est une société de gestion d'investissement de premier plan, qui déploie une gamme complète de solutions d'investissement sur plusieurs continents — de l'asset management au private equity, jusqu'à l'immobilier, l'agriculture et les travaux publics.",
-      "primaryCta": "Découvrir nos divisions",
+      "subtitle": "HAMRI CAPITAL est une société de gestion d'investissement de premier plan, qui déploie une gamme complète de solutions sur plusieurs continents — de la gestion d'actifs et de patrimoine au private equity, jusqu'à l'immobilier, aux actifs numériques et à la banque d'investissement.",
+      "primaryCta": "Découvrir nos piliers",
       "secondaryCta": "Demander un conseil"
     },
     "intro": {
       "eyebrow": "Votre partenaire en excellence d'investissement",
       "title": "Une gamme complète de solutions d'investissement",
-      "body": "HAMRI CAPITAL LLC propose la Gestion d'Actifs, la Gestion de Patrimoine, les Hedge Funds, le Private Equity, le Capital-Risque, l'Investment Banking, les Fonds Immobiliers et REITs, ainsi qu'une expertise en Ingénierie Financière, Développement Commercial et Construction, Bâtiment et Travaux Publics.",
+      "body": "HAMRI CAPITAL LLC propose la Gestion d'Actifs & de Patrimoine, les Hedge Funds, le Private Equity, le Capital-Risque, les Fonds Immobiliers (REITs), l'Investment Banking, les Crypto Assets, et la Comptabilité & Finance.",
       "discover": "Découvrez comment HAMRI CAPITAL peut vous aider à atteindre vos objectifs financiers."
     },
     "pillars": {
@@ -57,16 +57,16 @@
     },
     "stats": {
       "title": "HAMRI CAPITAL en un coup d'œil",
-      "divisions": "Divisions",
+      "divisions": "Piliers",
       "industries": "Industries couvertes",
       "countries": "Pays partenaires",
       "values": "Valeurs fondamentales"
     },
     "divisionsSection": {
-      "eyebrow": "Nos Divisions",
-      "title": "Seize divisions, une approche intégrée",
-      "body": "Chaque division dispose de son expertise et de son équipe, coordonnées par une philosophie d'investissement unique.",
-      "viewAll": "Voir toutes les divisions"
+      "eyebrow": "Nos Piliers",
+      "title": "Huit piliers, une approche intégrée",
+      "body": "Chaque pilier dispose de son expertise et de son équipe, coordonnées par une philosophie d'investissement unique.",
+      "viewAll": "Voir tous les piliers"
     },
     "industriesSection": {
       "eyebrow": "Industries",
@@ -83,7 +83,7 @@
   "about": {
     "eyebrow": "À propos de HAMRI CAPITAL",
     "title": "Votre partenaire en excellence d'investissement",
-    "intro": "HAMRI CAPITAL LLC est une société de gestion d'investissement de premier plan, qui propose une gamme complète de solutions d'investissement ainsi qu'une expertise en ingénierie financière, développement commercial et construction, bâtiment et travaux publics.",
+    "intro": "HAMRI CAPITAL LLC est une société de gestion d'investissement de premier plan, structurée autour de huit piliers de service : gestion d'actifs et de patrimoine, investissements alternatifs, marchés de capitaux, actifs numériques et pilotage financier.",
     "valuesTitle": "Nos Valeurs",
     "valuesIntro": "Chez HAMRI CAPITAL, quatre valeurs fondamentales soutiennent notre engagement sans faille envers l'excellence :",
     "values": {
@@ -143,14 +143,10 @@
   },
   "services": {
     "eyebrow": "Nos Services",
-    "title": "Divisions",
-    "intro": "Une gamme complète et intégrée de solutions d'investissement, portée par des équipes dédiées.",
-    "servicesGroup": "Divisions d'investissement et de conseil",
-    "editorialGroup": "Comprendre les marchés",
-    "editorialNote": "Contenu pédagogique. Pour ces marchés, nous vous orientons vers les plateformes et places boursières listées dans nos Ressources, plutôt que de proposer un service direct.",
+    "title": "Nos Piliers",
+    "intro": "Huit piliers de service, portés par des équipes dédiées au sein d'une philosophie d'investissement unique.",
     "executiveSummary": "Résumé exécutif",
-    "conclusion": "Conclusion",
-    "relatedLinks": "Liens utiles sur ce sujet"
+    "conclusion": "Conclusion"
   },
   "community": {
     "eyebrow": "VIP Business Club",
@@ -303,7 +299,7 @@
     "learnMore": "En savoir plus",
     "submit": "Envoyer",
     "sending": "Envoi…",
-    "backToServices": "Retour aux divisions",
+    "backToServices": "Retour aux piliers",
     "comingSoon": "Bientôt disponible"
   }
 }

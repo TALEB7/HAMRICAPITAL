@@ -5,7 +5,7 @@ import { routing } from "@/i18n/routing";
 import { alternatesFor } from "@/lib/metadata";
 import { PageHeader } from "@/components/PageHeader";
 import { DivisionCard } from "@/components/DivisionCard";
-import { serviceDivisions, editorialDivisions } from "@/content/divisions";
+import { divisions } from "@/content/divisions";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -39,32 +39,13 @@ export default async function ServicesPage(props: {
         intro={t("intro")}
       />
 
+      {/* Les huit piliers sur une seule grille : ils ont tous le même statut.
+          Le site distinguait auparavant services et contenus pédagogiques. */}
       <section className="py-section">
-        <div className="container-hc">
-          <h2 className="font-display text-2xl text-bright">
-            {t("servicesGroup")}
-          </h2>
-          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {serviceDivisions.map((d) => (
-              <DivisionCard key={d.slug} division={d} />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="border-t border-hairline bg-surface py-section">
-        <div className="container-hc">
-          <h2 className="font-display text-2xl text-bright">
-            {t("editorialGroup")}
-          </h2>
-          <p className="mt-4 max-w-3xl text-sm leading-relaxed text-muted">
-            {t("editorialNote")}
-          </p>
-          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {editorialDivisions.map((d) => (
-              <DivisionCard key={d.slug} division={d} />
-            ))}
-          </div>
+        <div className="container-hc grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {divisions.map((d) => (
+            <DivisionCard key={d.slug} division={d} />
+          ))}
         </div>
       </section>
     </main>

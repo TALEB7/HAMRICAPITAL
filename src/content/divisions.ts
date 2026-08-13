@@ -1,13 +1,16 @@
 /**
- * Les 16 divisions HAMRI CAPITAL.
+ * Les 8 piliers de service HAMRI CAPITAL.
  *
  * Chaque entrée est la source de vérité pour : l'URL de la sous-page, la clé
- * de traduction du contenu (messages/<lang>.json → divisions.<key>), la
- * présence d'un formulaire « Demander ce service », et le département qui
- * reçoit ce formulaire.
+ * de traduction du contenu (messages/<lang>/divisions.json → <key>), et le
+ * département qui reçoit le formulaire.
  *
- * Les trois divisions marquées `kind: "editorial"` (Forex, Crypto, Stock
- * Market) sont du contenu pédagogique renvoyant vers les liens externes.
+ * Cette liste a remplacé les 16 divisions issues du PDF de présentation :
+ * Asset et Wealth Management ont été fusionnés en un pilier unique, Crypto
+ * est passé de contenu pédagogique à service, et Accounting & Finance a été
+ * ajouté. Les huit divisions retirées (Ingénierie Financière, Développement
+ * Commercial, Construction, Forex, Marché Boursier, Finance Agricole, Conseil
+ * en Management, Gestion des Clôtures) restent dans l'historique git.
  */
 
 export type Department = "info" | "hr" | "legal" | "ceo";
@@ -15,108 +18,61 @@ export type Department = "info" | "hr" | "legal" | "ceo";
 export type Division = {
   /** Segment d'URL : /[locale]/services/<slug> */
   slug: string;
-  /** Clé dans messages/*.json sous `divisions` */
+  /** Clé dans messages/<lang>/divisions.json */
   key: string;
-  /** "service" → formulaire dédié ; "editorial" → contenu informatif */
-  kind: "service" | "editorial";
-  /** Département destinataire du formulaire (services uniquement) */
-  department?: Department;
-  /** Mise en avant sur la page d'accueil et en section parallax */
+  /** Département destinataire du formulaire */
+  department: Department;
+  /** Mise en avant sur la page d'accueil */
   flagship?: boolean;
 };
 
 export const divisions: Division[] = [
   {
-    slug: "asset-management",
-    key: "assetManagement",
-    kind: "service",
+    slug: "asset-wealth-management",
+    key: "assetWealthManagement",
     department: "info",
     flagship: true,
   },
   {
-    slug: "wealth-management",
-    key: "wealthManagement",
-    kind: "service",
-    department: "info",
-  },
-  {
     slug: "hedge-funds",
     key: "hedgeFunds",
-    kind: "service",
     department: "info",
     flagship: true,
   },
   {
     slug: "private-equity",
     key: "privateEquity",
-    kind: "service",
     department: "info",
     flagship: true,
   },
   {
     slug: "venture-capital",
     key: "ventureCapital",
-    kind: "service",
+    department: "info",
+  },
+  {
+    slug: "real-estate-investment-trust",
+    key: "realEstate",
     department: "info",
   },
   {
     slug: "investment-banking",
     key: "investmentBanking",
-    kind: "service",
     department: "info",
     flagship: true,
   },
   {
-    slug: "real-estate-funds-reits",
-    key: "realEstate",
-    kind: "service",
+    slug: "crypto-assets",
+    key: "cryptoAssets",
     department: "info",
   },
   {
-    slug: "financial-engineering",
-    key: "financialEngineering",
-    kind: "service",
-    department: "info",
-  },
-  {
-    slug: "business-development",
-    key: "businessDevelopment",
-    kind: "service",
-    department: "info",
-  },
-  {
-    slug: "construction-building-public-works",
-    key: "construction",
-    kind: "service",
-    department: "info",
-  },
-  { slug: "forex-trading", key: "forex", kind: "editorial" },
-  { slug: "cryptocurrency", key: "crypto", kind: "editorial" },
-  { slug: "stock-market", key: "stockMarket", kind: "editorial" },
-  {
-    slug: "agriculture-finance",
-    key: "agriculture",
-    kind: "service",
-    department: "info",
-  },
-  {
-    slug: "management-consulting",
-    key: "managementConsulting",
-    kind: "service",
-    department: "info",
-  },
-  {
-    slug: "closing-management",
-    key: "closingManagement",
-    kind: "service",
+    slug: "accounting-finance",
+    key: "accountingFinance",
     department: "info",
   },
 ];
 
-export const serviceDivisions = divisions.filter((d) => d.kind === "service");
-export const editorialDivisions = divisions.filter(
-  (d) => d.kind === "editorial",
-);
 export const flagshipDivisions = divisions.filter((d) => d.flagship);
 
 export function getDivision(slug: string) {

@@ -1,7 +1,7 @@
 {
   "meta": {
     "titleSuffix": "Investment Management Company",
-    "description": "HAMRI CAPITAL is a leading Investment Management Company offering asset management, wealth management, hedge funds, private equity, venture capital, investment banking, real estate funds and REITs, financial engineering, business development and construction."
+    "description": "HAMRI CAPITAL is a leading Investment Management Company built on eight pillars: asset and wealth management, hedge funds, private equity, venture capital, real estate investment trusts, investment banking, crypto assets, and accounting and finance."
   },
   "nav": {
     "home": "Home",
@@ -21,14 +21,14 @@
     "hero": {
       "eyebrow": "Investment Management Company",
       "title": "Create Your Boat and Join Our Journey",
-      "subtitle": "HAMRI CAPITAL is a leading Investment Management Company delivering a comprehensive range of investment solutions across continents — from asset management and private equity to real estate, agriculture and public works.",
-      "primaryCta": "Explore our divisions",
+      "subtitle": "HAMRI CAPITAL is a leading Investment Management Company delivering a comprehensive range of investment solutions across continents — from asset and wealth management and private equity to real estate, digital assets and investment banking.",
+      "primaryCta": "Explore our pillars",
       "secondaryCta": "Request advice"
     },
     "intro": {
       "eyebrow": "Your Partner in Investment Excellence",
       "title": "A comprehensive range of investment solutions",
-      "body": "HAMRI CAPITAL Limited Liability Company offers Asset Management, Wealth Management, Hedge Funds, Private Equity, Venture Capital, Investment Banking, Real Estate Funds and Real Estate Investment Trusts, as well as expertise in Financial Engineering, Business Development, and Construction Work, Building and Public Works.",
+      "body": "HAMRI CAPITAL Limited Liability Company offers Asset & Wealth Management, Hedge Funds, Private Equity, Venture Capital, Real Estate Investment Trusts, Investment Banking, Crypto Assets, and Accounting & Finance.",
       "discover": "Discover how HAMRI CAPITAL can help you achieve your financial goals."
     },
     "pillars": {
@@ -57,16 +57,16 @@
     },
     "stats": {
       "title": "HAMRI CAPITAL at a glance",
-      "divisions": "Divisions",
+      "divisions": "Pillars",
       "industries": "Industries covered",
       "countries": "Partnership countries",
       "values": "Core values"
     },
     "divisionsSection": {
-      "eyebrow": "Our Divisions",
-      "title": "Sixteen divisions, one integrated approach",
-      "body": "Each division operates with its own expertise and delivery team, coordinated under a single investment philosophy.",
-      "viewAll": "View all divisions"
+      "eyebrow": "Our Pillars",
+      "title": "Eight pillars, one integrated approach",
+      "body": "Each pillar operates with its own expertise and delivery team, coordinated under a single investment philosophy.",
+      "viewAll": "View all pillars"
     },
     "industriesSection": {
       "eyebrow": "Industries",
@@ -83,7 +83,7 @@
   "about": {
     "eyebrow": "About HAMRI CAPITAL",
     "title": "Your Partner in Investment Excellence",
-    "intro": "HAMRI CAPITAL Limited Liability Company is a leading Investment Management Company that offers a comprehensive range of investment solutions, as well as expertise in financial engineering, business development, and construction work, building and public works.",
+    "intro": "HAMRI CAPITAL Limited Liability Company is a leading Investment Management Company, built on eight pillars of service spanning asset and wealth management, alternative investments, capital markets, digital assets and financial control.",
     "valuesTitle": "Our Values",
     "valuesIntro": "At HAMRI CAPITAL, we are driven by four core values that underpin our unwavering commitment to excellence:",
     "values": {
@@ -143,14 +143,10 @@
   },
   "services": {
     "eyebrow": "Our Services",
-    "title": "Divisions",
-    "intro": "A comprehensive and integrated range of investment solutions, delivered by dedicated teams.",
-    "servicesGroup": "Investment & advisory divisions",
-    "editorialGroup": "Markets explained",
-    "editorialNote": "Educational content. For these markets we point you to the platforms and exchanges listed in our Resources page rather than offering a direct service.",
+    "title": "Our Pillars",
+    "intro": "Eight pillars of service, delivered by dedicated teams within a single investment philosophy.",
     "executiveSummary": "Executive Summary",
-    "conclusion": "Conclusion",
-    "relatedLinks": "Useful links for this topic"
+    "conclusion": "Conclusion"
   },
   "community": {
     "eyebrow": "VIP Business Club",
@@ -303,7 +299,7 @@
     "learnMore": "Learn more",
     "submit": "Submit",
     "sending": "Sending…",
-    "backToServices": "Back to all divisions",
+    "backToServices": "Back to all pillars",
     "comingSoon": "Coming soon"
   }
 }

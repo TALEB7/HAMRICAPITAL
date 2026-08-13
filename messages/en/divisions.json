@@ -1,13 +1,13 @@
 {
-  "assetManagement": {
-    "title": "Asset Management",
-    "cta": "Request Asset Management",
-    "tagline": "A comprehensive and integrated approach to growing wealth over time.",
-    "summary": "Asset Management is a specialized discipline that involves the systematic process of buying, selling, and managing investments to increase wealth over time, while considering specific risk tolerances and client objectives. Our asset management services provide institutional and individual clients with a comprehensive and integrated approach to managing their investments.",
+  "assetWealthManagement": {
+    "title": "Asset & Wealth Management",
+    "cta": "Request Asset & Wealth Management",
+    "tagline": "A comprehensive, integrated approach to growing and protecting wealth.",
+    "summary": "Asset & Wealth Management brings together the systematic management of investment portfolios and the personalised advisory work that surrounds them. We buy, sell and manage investments to grow wealth over time — always aligned with each client's risk tolerance and objectives — while coordinating financial planning, wealth protection, and tax and accounting services within a single strategy. We serve individuals, government entities, corporations and institutional investors.",
     "sections": [
       {
         "heading": "Definition and Scope",
-        "intro": "Our asset management services encompass a broad range of activities, including:",
+        "intro": "Our services encompass a broad range of activities, including:",
         "items": [
           {
             "term": "Investment Selection",
@@ -22,44 +22,52 @@
             "text": "Identifying and mitigating potential risks to protect client assets."
           },
           {
-            "term": "Performance Monitoring",
-            "text": "Regularly monitoring and evaluating portfolio performance."
+            "term": "Performance Monitoring and Rebalancing",
+            "text": "Monitoring portfolio performance and rebalancing periodically to stay aligned with client objectives."
           },
           {
-            "term": "Rebalancing",
-            "text": "Periodically rebalancing portfolios to ensure alignment with client objectives."
+            "term": "Financial Planning",
+            "text": "Retirement planning, estate planning, tax planning, and insurance planning."
+          },
+          {
+            "term": "Wealth Protection",
+            "text": "Risk management, asset protection, and liability management."
+          },
+          {
+            "term": "Tax and Accounting Services",
+            "text": "Tax planning, preparation, and compliance, as well as accounting and bookkeeping services."
           }
         ]
       },
       {
-        "heading": "Benefits of Asset Management",
-        "intro": "By partnering with our Asset Management team, clients can benefit from:",
+        "heading": "Our Consultative Process",
+        "intro": "We begin by understanding each client's situation, goals and constraints:",
         "items": [
           {
-            "term": "Expertise",
-            "text": "Access to experienced investment professionals with a proven track record."
+            "term": "Financial Data Collection",
+            "text": "Gathering information on income, expenses, assets, liabilities, and cash flow."
           },
           {
-            "term": "Customization",
-            "text": "Tailored investment solutions designed to meet specific client needs and objectives."
+            "term": "Goal-Based Planning",
+            "text": "Identifying and prioritising client goals, such as retirement planning, estate planning, or wealth transfer."
           },
           {
-            "term": "Risk Management",
-            "text": "Proactive risk management to protect client assets and ensure alignment with client objectives."
+            "term": "Risk Tolerance Assessment",
+            "text": "Evaluating client risk tolerance and ability to withstand market fluctuations."
           },
           {
-            "term": "Convenience",
-            "text": "Outsourcing investment management to experienced professionals, freeing up time for other pursuits."
+            "term": "Personalised Strategy",
+            "text": "Building a tailored strategy from what we have gathered, aligned with the client's objectives."
           }
         ]
       },
       {
         "heading": "Target Clients",
-        "intro": "Our Asset Management services are designed to meet the unique needs of:",
+        "intro": "Our services are designed to meet the unique needs of:",
         "items": [
           {
             "term": "Individuals",
-            "text": "High-net-worth individuals and private wealth clients seeking personalized investment solutions."
+            "text": "High-net-worth individuals and private wealth clients seeking personalised investment solutions."
           },
           {
             "term": "Government Entities",
@@ -71,17 +79,17 @@
           },
           {
             "term": "Institutional Investors",
-            "text": "Insurance companies, endowments, foundations, and other institutional investors requiring customized investment management solutions."
+            "text": "Insurance companies, endowments, foundations, and other institutional investors requiring customised solutions."
           }
         ]
       },
       {
         "heading": "Our Investment Philosophy",
-        "intro": "Our investment philosophy is centered around the following core principles:",
+        "intro": "Our investment philosophy is centred around the following core principles:",
         "items": [
           {
             "term": "Client-Centric Approach",
-            "text": "We prioritize client needs and objectives, delivering tailored investment solutions."
+            "text": "We prioritise client needs and objectives, delivering tailored investment solutions."
           },
           {
             "term": "Disciplined Investment Process",
@@ -102,7 +110,7 @@
             "text": "Make decisions on behalf of clients with honesty, integrity, and transparency."
           },
           {
-            "term": "Prioritize Client Interests",
+            "term": "Prioritise Client Interests",
             "text": "Act in the best interests of clients, ahead of our own interests or those of our firm."
           },
           {
@@ -110,95 +118,27 @@
             "text": "Make informed decisions, supported by thorough research, analysis, and expertise."
           }
         ]
-      }
-    ],
-    "conclusion": "Our Asset Management services provide clients with a comprehensive and integrated approach to managing their investments. With a disciplined and research-driven investment process, combined with a commitment to fiduciary responsibility, we deliver optimal returns and foster long-term relationships with our clients."
-  },
-
-  "wealthManagement": {
-    "title": "Wealth Management",
-    "cta": "Request Wealth Management",
-    "tagline": "A comprehensive and personalized approach to financial excellence.",
-    "summary": "Wealth Management is a sophisticated investment advisory service designed to address the complex financial needs of high-net-worth individuals and families. Our wealth management team provides a comprehensive and personalized approach to managing wealth, leveraging expertise in investment management, financial planning, wealth protection, and tax and accounting services.",
-    "sections": [
-      {
-        "heading": "Definition and Scope",
-        "intro": "Wealth Management is a holistic financial service that encompasses a broad range of activities, including:",
-        "items": [
-          {
-            "term": "Investment Management",
-            "text": "Portfolio management, asset allocation, and security selection."
-          },
-          {
-            "term": "Financial Planning",
-            "text": "Retirement planning, estate planning, tax planning, and insurance planning."
-          },
-          {
-            "term": "Wealth Protection",
-            "text": "Risk management, asset protection, and liability management."
-          },
-          {
-            "term": "Tax and Accounting Services",
-            "text": "Tax planning, preparation, and compliance, as well as accounting and bookkeeping services."
-          }
-        ]
       },
       {
-        "heading": "Consultative Process",
-        "intro": "Our team employs a consultative approach to understand each client's unique financial situation, goals, and objectives. This process involves:",
+        "heading": "Fee Structure",
+        "intro": "Our fees are transparent and competitive, typically based on assets under management (AUM). This structure aligns our interests with those of our clients.",
         "items": [
           {
-            "term": "Financial Data Collection",
-            "text": "Gathering information on income, expenses, assets, liabilities, and cash flow."
+            "term": "Expertise",
+            "text": "Access to experienced investment professionals with a proven track record."
           },
           {
-            "term": "Goal-Based Planning",
-            "text": "Identifying and prioritizing client goals, such as retirement planning, estate planning, or wealth transfer."
+            "term": "Customisation",
+            "text": "Tailored solutions designed to meet specific client needs and objectives."
           },
           {
-            "term": "Risk Tolerance Assessment",
-            "text": "Evaluating client risk tolerance and ability to withstand market fluctuations."
-          }
-        ]
-      },
-      {
-        "heading": "Comprehensive Approach",
-        "intro": "Our services address the complex needs of high-net-worth individuals and families, including:",
-        "items": [
-          {
-            "term": "Money Management",
-            "text": "Cash flow management, budgeting, and liquidity management."
-          },
-          {
-            "term": "Estate Planning",
-            "text": "Will preparation, trust creation, and probate avoidance."
-          },
-          {
-            "term": "Retirement Planning",
-            "text": "Retirement account management, pension planning, and Social Security optimization."
-          },
-          {
-            "term": "Tax Services",
-            "text": "Tax planning, preparation, and compliance, as well as tax controversy resolution."
-          }
-        ]
-      },
-      {
-        "heading": "Fee Structure and Clientele",
-        "intro": "Our fees are transparent and competitive, typically based on a client's assets under management (AUM) — aligning our interests with those of our clients.",
-        "items": [
-          {
-            "term": "High-Net-Worth Individuals",
-            "text": "Affluent individuals with complex financial needs and significant assets."
-          },
-          {
-            "term": "Diverse Financial Needs",
-            "text": "Clients requiring a broad range of financial services, including estate planning, accounting, retirement planning, and tax planning."
+            "term": "Convenience",
+            "text": "Outsourcing investment management to experienced professionals, freeing up time for other pursuits."
           }
         ]
       }
     ],
-    "conclusion": "Our Wealth Management services provide high-net-worth individuals and families with a comprehensive and integrated approach to managing their wealth. With a team of experienced financial professionals and a transparent fee structure, we deliver exceptional investment performance and personalized service to our clients."
+    "conclusion": "Our Asset & Wealth Management services provide clients with a comprehensive and integrated approach to their investments and their wider financial lives. A disciplined, research-driven process, combined with an unwavering commitment to fiduciary responsibility, allows us to deliver strong returns and build long-term relationships."
   },
 
   "hedgeFunds": {
@@ -209,7 +149,7 @@
     "sections": [
       {
         "heading": "Investment Strategies",
-        "intro": "Hedge funds employ a range of investment strategies to achieve their objectives, including:",
+        "intro": "Hedge funds employ a range of investment strategies to achieve their objectives:",
         "items": [
           {
             "term": "Long-Short Equity",
@@ -295,7 +235,7 @@
     "sections": [
       {
         "heading": "Investment Strategies",
-        "intro": "Private equity funds employ various investment strategies, including:",
+        "intro": "Private equity funds employ various investment strategies:",
         "items": [
           {
             "term": "Leveraged Buyouts (LBOs)",
@@ -303,7 +243,7 @@
           },
           {
             "term": "Growth Capital",
-            "text": "Investing in companies to support expansion, modernization, or restructuring."
+            "text": "Investing in companies to support expansion, modernisation, or restructuring."
           },
           {
             "term": "Venture Capital",
@@ -357,7 +297,7 @@
       },
       {
         "heading": "Benefits and Risks",
-        "intro": "Private equity investments offer high return potential and portfolio diversification, but also carry specific risks:",
+        "intro": "Private equity offers high return potential and portfolio diversification, but also carries specific risks:",
         "items": [
           {
             "term": "Potential for High Returns",
@@ -407,7 +347,7 @@
       },
       {
         "heading": "Forms of Venture Capital",
-        "intro": "Venture capital can take various forms, including:",
+        "intro": "Venture capital can take various forms:",
         "items": [
           {
             "term": "Seed Funding",
@@ -424,8 +364,30 @@
         ]
       },
       {
-        "heading": "What Venture Capitalists Provide",
-        "intro": "Venture capitalists back startups and small businesses through:",
+        "heading": "Sources of Venture Capital",
+        "intro": "Capital comes from several types of backers:",
+        "items": [
+          {
+            "term": "Venture Capital Firms",
+            "text": "Specialised firms that invest in startup companies and small businesses."
+          },
+          {
+            "term": "Angel Investors",
+            "text": "High-net-worth individuals who invest in startup companies in exchange for equity."
+          },
+          {
+            "term": "Corporate Venture Capital",
+            "text": "Large corporations that invest in startup companies to drive innovation and growth."
+          },
+          {
+            "term": "Family Offices",
+            "text": "Private wealth management firms that invest on behalf of high-net-worth families."
+          }
+        ]
+      },
+      {
+        "heading": "What We Bring",
+        "intro": "Beyond capital, we support the companies we back with:",
         "items": [
           {
             "term": "Financing",
@@ -437,41 +399,108 @@
           },
           {
             "term": "Managerial Experience",
-            "text": "Managerial expertise and guidance to support business growth and development."
+            "text": "Managerial expertise and operational guidance."
           },
           {
             "term": "Networking Opportunities",
             "text": "Access to a network of investors, entrepreneurs, and industry experts."
           }
         ]
-      },
+      }
+    ],
+    "conclusion": "Venture capital is a vital source of financing for startup companies and small businesses with high growth potential. By providing funding, expertise, and guidance, we help entrepreneurs achieve their growth objectives and build successful, sustainable businesses."
+  },
+
+  "realEstate": {
+    "title": "Real Estate Investment Trust",
+    "cta": "Request Real Estate Investment Options",
+    "tagline": "Income-producing real estate, without directly buying or managing property.",
+    "summary": "Real Estate Investment Trusts (REITs) are companies that own, operate, or finance income-producing real estate properties across various sectors. REITs provide investors with diversified exposure to the property market without directly buying, managing, or financing properties.",
+    "sections": [
       {
-        "heading": "Best Practices for Investors",
-        "intro": "Venture capital investors should:",
+        "heading": "How REITs Work",
+        "intro": "REITs operate by:",
         "items": [
           {
-            "term": "Conduct Thorough Due Diligence",
-            "text": "Evaluate the opportunity thoroughly, including financial, operational, and market assessments."
+            "term": "Pooling Capital",
+            "text": "Collecting funds from multiple investors to invest in a diversified portfolio of properties."
           },
           {
-            "term": "Develop a Strong Investment Thesis",
-            "text": "Clearly articulate the investment thesis and strategy for the portfolio company."
+            "term": "Investing in Properties",
+            "text": "Acquiring, developing, and managing income-producing properties."
           },
           {
-            "term": "Work Closely with Portfolio Companies",
-            "text": "Collaborate with management teams to implement strategic initiatives and drive growth."
+            "term": "Distributing Income",
+            "text": "Passing on a significant portion of the income generated by the properties to shareholders in the form of dividends."
+          }
+        ]
+      },
+      {
+        "heading": "Benefits",
+        "intro": "REITs offer several benefits to investors:",
+        "items": [
+          {
+            "term": "Diversification",
+            "text": "Allowing investors to diversify their portfolios by adding real estate assets."
+          },
+          {
+            "term": "Income Generation",
+            "text": "Providing a regular stream of income through dividend payments."
+          },
+          {
+            "term": "Liquidity",
+            "text": "Enabling investors to easily buy and sell shares on major stock exchanges."
+          },
+          {
+            "term": "Professional Management",
+            "text": "Access to experienced real estate professionals who manage the properties and investments."
+          }
+        ]
+      },
+      {
+        "heading": "Property Types",
+        "intro": "REITs invest in a diverse range of property types, including:",
+        "items": [
+          { "term": "Apartment Buildings", "text": "Multifamily residential properties." },
+          { "term": "Cell Towers", "text": "Telecommunication infrastructure." },
+          {
+            "term": "Data Centers",
+            "text": "Facilities housing computer servers and data storage."
+          },
+          { "term": "Hotels", "text": "Hospitality properties." },
+          { "term": "Medical Facilities", "text": "Healthcare-related properties." },
+          { "term": "Offices", "text": "Commercial properties." },
+          { "term": "Retail Centers", "text": "Shopping malls and retail complexes." },
+          { "term": "Warehouses", "text": "Industrial properties." }
+        ]
+      },
+      {
+        "heading": "Ways to Invest and Risks",
+        "intro": "Investors access REITs through listed REIT shares, REIT mutual funds or REIT ETFs — bearing in mind that:",
+        "items": [
+          {
+            "term": "Market Volatility",
+            "text": "REIT shares can be affected by market fluctuations, interest rates, and economic conditions."
+          },
+          {
+            "term": "Property Market Risks",
+            "text": "Exposure to changes in property values, rental income, and occupancy rates."
+          },
+          {
+            "term": "Debt and Leverage",
+            "text": "REITs often use debt to finance their investments, which can increase the risk of default and negatively impact share prices."
           }
         ]
       }
     ],
-    "conclusion": "Venture capital is a vital source of financing for startup companies and small businesses with high growth potential. By providing funding, expertise, and guidance, we help entrepreneurs and business owners achieve their growth objectives and create successful, sustainable businesses."
+    "conclusion": "REITs offer a unique investment opportunity, providing a steady income stream and diversification benefits. By understanding the characteristics, types, and property types of REITs, investors can make informed decisions about adding them to their portfolios."
   },
 
   "investmentBanking": {
     "title": "Investment Banking",
     "cta": "Request Investment Banking Services",
     "tagline": "Strategic advice and execution on large, complex financial transactions.",
-    "summary": "Investment Banking is a specialized form of banking that facilitates large, complex financial transactions such as Mergers and Acquisitions (M&A), Initial Public Offerings (IPOs), and debt issuances. We provide strategic advice and financial services to corporations, governments, and financial institutions.",
+    "summary": "Investment Banking is a specialised form of banking that facilitates large, complex financial transactions such as Mergers and Acquisitions (M&A), Initial Public Offerings (IPOs), and debt issuances. We provide strategic advice and capital markets services to corporations, governments, and financial institutions.",
     "sections": [
       {
         "heading": "Definition and Scope",
@@ -504,8 +533,8 @@
             "text": "Providing expert advice on corporate strategy, restructuring, and other financial matters."
           },
           {
-            "term": "Transaction Execution",
-            "text": "Managing the execution of financial transactions, including due diligence, documentation, and closing."
+            "term": "Restructuring and Reorganisation",
+            "text": "Assisting companies with restructuring and reorganising their operations."
           },
           {
             "term": "Brokerage Services",
@@ -553,781 +582,177 @@
     "conclusion": "Investment banking plays a vital role in facilitating complex financial transactions and providing strategic advice to clients. Our bankers combine a deep understanding of capital markets, industry trends, and financial regulations to advise and execute successfully."
   },
 
-  "realEstate": {
-    "title": "Real Estate Funds & REITs",
-    "cta": "Request Real Estate Investment Options",
-    "tagline": "Income-producing real estate, without directly buying or managing property.",
-    "summary": "Real Estate Investment Trusts (REITs) are companies that own, operate, or finance income-producing real estate properties across various sectors. REITs provide individuals with an opportunity to invest in real estate without directly buying, managing, or financing properties.",
+  "cryptoAssets": {
+    "title": "Crypto Assets",
+    "cta": "Request Crypto Asset Services",
+    "tagline": "Structured exposure to digital assets, with the controls the asset class demands.",
+    "summary": "Crypto assets are digital assets secured by cryptography and recorded on decentralised blockchain networks. We help institutional investors and high-net-worth individuals approach this asset class deliberately — defining an allocation, selecting venues and custody arrangements, and putting the risk and compliance controls in place before any capital is committed.",
     "sections": [
       {
-        "heading": "How REITs Work",
-        "intro": "REITs operate by:",
+        "heading": "Our Services",
+        "intro": "Our crypto asset services cover:",
         "items": [
           {
-            "term": "Pooling Capital",
-            "text": "Collecting funds from multiple investors to invest in a diversified portfolio of properties."
+            "term": "Allocation Strategy",
+            "text": "Defining what role, if any, digital assets should play within a wider portfolio, and sizing the position accordingly."
           },
           {
-            "term": "Investing in Properties",
-            "text": "Acquiring, developing, and managing income-producing properties."
+            "term": "Venue and Custody Selection",
+            "text": "Assessing exchanges, custodians and wallet arrangements against security, counterparty and jurisdictional criteria."
           },
           {
-            "term": "Distributing Income",
-            "text": "Passing on a significant portion of the income generated by the properties to shareholders in the form of dividends."
+            "term": "Risk Framework",
+            "text": "Setting exposure limits, rebalancing rules and loss thresholds before capital is deployed."
+          },
+          {
+            "term": "Reporting and Valuation",
+            "text": "Consolidated reporting of digital asset positions alongside the rest of the portfolio."
           }
         ]
       },
       {
-        "heading": "Benefits",
-        "intro": "REITs offer several benefits to investors:",
+        "heading": "How the Asset Class Works",
+        "intro": "Understanding the mechanics is part of investing responsibly:",
         "items": [
           {
-            "term": "Diversification",
-            "text": "Allowing individuals to diversify their investment portfolios by adding real estate assets."
+            "term": "Decentralised",
+            "text": "Crypto assets are not issued or controlled by any central authority, such as governments or financial institutions."
           },
           {
-            "term": "Income Generation",
-            "text": "Providing a regular stream of income through dividend payments."
-          },
-          {
-            "term": "Liquidity",
-            "text": "Enabling investors to easily buy and sell shares on major stock exchanges."
-          },
-          {
-            "term": "Professional Management",
-            "text": "Access to experienced real estate professionals who manage the properties and investments."
-          }
-        ]
-      },
-      {
-        "heading": "Property Types",
-        "intro": "REITs invest in a diverse range of property types, including:",
-        "items": [
-          { "term": "Apartment Buildings", "text": "Multifamily residential properties." },
-          { "term": "Cell Towers", "text": "Telecommunication infrastructure." },
-          {
-            "term": "Data Centers",
-            "text": "Facilities housing computer servers and data storage."
-          },
-          { "term": "Hotels", "text": "Hospitality properties." },
-          { "term": "Medical Facilities", "text": "Healthcare-related properties." },
-          { "term": "Offices", "text": "Commercial properties." },
-          { "term": "Retail Centers", "text": "Shopping malls and retail complexes." },
-          { "term": "Warehouses", "text": "Industrial properties." }
-        ]
-      },
-      {
-        "heading": "Risks and Considerations",
-        "intro": "While REITs can be a valuable addition to a portfolio, investors should be aware of:",
-        "items": [
-          {
-            "term": "Market Volatility",
-            "text": "REIT shares can be affected by market fluctuations, interest rates, and economic conditions."
-          },
-          {
-            "term": "Property Market Risks",
-            "text": "Exposure to changes in property values, rental income, and occupancy rates."
-          },
-          {
-            "term": "Debt and Leverage",
-            "text": "REITs often use debt to finance their investments, which can increase the risk of default and negatively impact share prices."
-          }
-        ]
-      }
-    ],
-    "conclusion": "REITs offer a unique investment opportunity, providing a steady income stream and diversification benefits. By understanding the characteristics, types, and property types of REITs, investors can make informed decisions about adding them to their portfolios."
-  },
-
-  "financialEngineering": {
-    "title": "Financial Engineering",
-    "cta": "Request Financial Engineering Support",
-    "tagline": "Mathematics, statistics and computation applied to investment and risk.",
-    "summary": "Financial Engineering is a highly specialized field that applies mathematical, statistical, and computational techniques to analyze and manage financial risk. It combines applied mathematics, statistics, computer science, financial theory, and economics to conduct quantitative analysis on financial markets.",
-    "sections": [
-      {
-        "heading": "Objectives",
-        "intro": "The primary objectives of financial engineering include:",
-        "items": [
-          {
-            "term": "Developing Investment Strategies",
-            "text": "Creating and testing quantitative models to inform investment decisions."
-          },
-          {
-            "term": "Designing New Financial Products",
-            "text": "Developing innovative financial instruments, such as derivatives and structured products."
-          },
-          {
-            "term": "Risk Management",
-            "text": "Identifying, assessing, and mitigating financial risks using advanced statistical and mathematical techniques."
-          },
-          {
-            "term": "Forecasting and Scenario Analysis",
-            "text": "Generating scenarios and forecasts for short- and long-term market perspectives."
-          }
-        ]
-      },
-      {
-        "heading": "Applications",
-        "intro": "Financial engineering has a broad range of applications, including:",
-        "items": [
-          {
-            "term": "Investment Banking",
-            "text": "Developing complex financial models and strategies for clients."
-          },
-          {
-            "term": "Hedge Funds",
-            "text": "Creating quantitative investment strategies to maximize returns."
-          },
-          {
-            "term": "Asset Management",
-            "text": "Developing risk management and investment strategies for institutional clients."
-          },
-          {
-            "term": "Commercial Banking",
-            "text": "Managing risk and developing financial products for corporate clients."
-          },
-          {
-            "term": "Insurance",
-            "text": "Developing risk management and investment strategies for insurance companies."
-          }
-        ]
-      }
-    ],
-    "conclusion": "Financial engineering plays a critical role in the investment industry. By combining advanced mathematical and statistical techniques with financial theory and economics, financial engineers develop innovative solutions to complex financial problems."
-  },
-
-  "businessDevelopment": {
-    "title": "Business Development",
-    "cta": "Request Business Development Support",
-    "tagline": "A strategic approach to growth and profitability.",
-    "summary": "Business Development is a systematic process of planning for future growth by identifying new opportunities, forming strategic partnerships, and adding value to a company. It involves understanding the target audience, market opportunities, and effective outreach channels to drive success.",
-    "sections": [
-      {
-        "heading": "Objectives",
-        "intro": "The primary objectives of business development include:",
-        "items": [
-          {
-            "term": "Sales Growth",
-            "text": "Increasing revenue through new sales channels, products, or services."
-          },
-          {
-            "term": "Business Expansion",
-            "text": "Entering new markets, expanding product lines, or acquiring new companies."
-          },
-          {
-            "term": "Strategic Partnerships",
-            "text": "Forming alliances with other companies to enhance competitiveness, improve market position, or increase profitability."
-          },
-          {
-            "term": "Increased Profitability",
-            "text": "Improving profit margins through cost reduction, process improvement, or revenue enhancement."
-          }
-        ]
-      },
-      {
-        "heading": "Key Activities",
-        "intro": "Business development involves several key activities, including:",
-        "items": [
-          {
-            "term": "Market Research",
-            "text": "Conducting market research to identify new opportunities, trends, and customer needs."
-          },
-          {
-            "term": "Competitor Analysis",
-            "text": "Analyzing competitors to identify strengths, weaknesses, and market positioning."
-          },
-          {
-            "term": "Partnership Development",
-            "text": "Building strategic partnerships with other companies to enhance competitiveness and improve market position."
-          },
-          {
-            "term": "Sales and Marketing",
-            "text": "Developing sales and marketing strategies to drive revenue growth and increase profitability."
-          },
-          {
-            "term": "Product Development",
-            "text": "Developing new products or services to meet changing customer needs and stay ahead of the competition."
-          }
-        ]
-      },
-      {
-        "heading": "Best Practices",
-        "intro": "To succeed in business development, organizations should:",
-        "items": [
-          {
-            "term": "Develop a Clear Strategy",
-            "text": "Build a business development strategy that aligns with organizational goals and objectives."
-          },
-          {
-            "term": "Build Strong Relationships",
-            "text": "Strengthen relationships with customers, partners, and stakeholders to drive growth and increase profitability."
-          },
-          {
-            "term": "Stay Ahead of the Competition",
-            "text": "Continuously monitor market trends, customer needs, and competitor activity."
-          },
-          {
-            "term": "Foster a Culture of Innovation",
-            "text": "Drive growth, improve processes, and enhance customer satisfaction through innovation."
-          }
-        ]
-      }
-    ],
-    "conclusion": "Business development is a critical function within any organization, responsible for driving growth, increasing profitability, and enhancing competitiveness. By understanding its objectives, impact, and key activities, organizations can develop effective strategies to achieve their goals."
-  },
-
-  "construction": {
-    "title": "Construction, Building & Public Works",
-    "cta": "Request a Construction Consultation",
-    "tagline": "Comprehensive construction services for private and public sector clients.",
-    "summary": "Our organization specializes in providing comprehensive construction services, encompassing building and public works projects, to private and public sector clients. With a strong commitment to quality, safety, and client satisfaction, we deliver tailored construction solutions that meet the unique needs and objectives of each client.",
-    "sections": [
-      {
-        "heading": "Scope of Services",
-        "intro": "Our construction services include:",
-        "items": [
-          {
-            "term": "Building Construction",
-            "text": "Designing and building residential, commercial, and industrial structures, ensuring compliance with regulatory requirements and industry standards."
-          },
-          {
-            "term": "Public Works",
-            "text": "Developing and maintaining infrastructure, including roads, bridges, highways, and public transportation systems, using innovative solutions and best practices."
-          },
-          {
-            "term": "Civil Engineering",
-            "text": "Site preparation, excavation, and foundation work, to ensure structural integrity and safety."
-          }
-        ]
-      },
-      {
-        "heading": "Benefits of Partnering with Us",
-        "intro": "By partnering with us, clients can expect:",
-        "items": [
-          {
-            "term": "Personalized Service",
-            "text": "Tailored construction solutions that meet the unique needs and objectives of each client."
-          },
-          {
-            "term": "Expertise",
-            "text": "Access to our extensive experience and knowledge in construction, building, and public works."
-          },
-          {
-            "term": "Cost-Effective Solutions",
-            "text": "Delivery of projects on time, within budget, and to the highest quality standards."
-          }
-        ]
-      },
-      {
-        "heading": "Why Choose Us",
-        "intro": "",
-        "items": [
-          {
-            "term": "Proven Track Record",
-            "text": "A history of successfully delivering complex construction projects."
-          },
-          {
-            "term": "Experienced Team",
-            "text": "A skilled and dedicated team with expertise in construction, building, and public works."
-          },
-          {
-            "term": "Client-Centric Approach",
-            "text": "A commitment to understanding and meeting the unique needs of each client, fostering long-term relationships and partnerships."
-          }
-        ]
-      }
-    ],
-    "conclusion": "With a strong commitment to quality, safety, and client satisfaction, we deliver construction solutions that meet the unique needs and objectives of each client."
-  },
-
-  "forex": {
-    "title": "Forex Trading",
-    "tagline": "The largest and most liquid market in the world — an educational overview.",
-    "summary": "The Foreign Exchange (Forex or FX) market is a global electronic marketplace where banks, businesses, governments, investors, and individuals trade currencies. With a daily trading volume of approximately $7.5 trillion, Forex is the largest and most liquid market in the world. It is decentralized, operating 24 hours a day, 5 days a week.",
-    "sections": [
-      {
-        "heading": "Benefits",
-        "intro": "",
-        "items": [
-          {
-            "term": "Liquidity",
-            "text": "Forex is the most liquid market in the world, making it easy to buy and sell currencies."
-          },
-          {
-            "term": "24/5 Market",
-            "text": "Forex markets are open 24 hours a day, 5 days a week, allowing traders to respond to events as they occur."
-          }
-        ]
-      },
-      {
-        "heading": "Risks",
-        "intro": "",
-        "items": [
-          {
-            "term": "Market Volatility",
-            "text": "Forex markets can be highly volatile, with exchange rates fluctuating rapidly."
-          },
-          {
-            "term": "Leverage",
-            "text": "While leverage can amplify profits, it also increases potential losses."
-          },
-          {
-            "term": "Liquidity Risks",
-            "text": "Forex markets can experience liquidity risks, making it difficult to buy or sell currencies."
-          },
-          {
-            "term": "Regulatory Risks",
-            "text": "Forex trading is regulated by various authorities, and changes in regulations can impact trades."
-          }
-        ]
-      },
-      {
-        "heading": "Trading Strategies",
-        "intro": "",
-        "items": [
-          {
-            "term": "Technical Analysis",
-            "text": "Analyzing charts and patterns to predict future price movements."
-          },
-          {
-            "term": "Fundamental Analysis",
-            "text": "Analyzing economic and geopolitical events to predict future price movements."
-          },
-          {
-            "term": "Scalping",
-            "text": "Making multiple trades in a short period to take advantage of small price movements."
-          },
-          {
-            "term": "Day Trading",
-            "text": "Making trades within a single trading day, closing all positions before the market closes."
-          }
-        ]
-      },
-      {
-        "heading": "Types of Forex Trades",
-        "intro": "",
-        "items": [
-          {
-            "term": "Spot Trades",
-            "text": "Buying or selling currencies at the current market price."
-          },
-          {
-            "term": "Forward Trades",
-            "text": "Buying or selling currencies at a set price for delivery at a future date."
-          },
-          {
-            "term": "Futures Contracts",
-            "text": "Buying or selling currencies at a set price for future delivery, with standardized contract sizes and expiration dates."
-          }
-        ]
-      },
-      {
-        "heading": "Recommendations",
-        "intro": "",
-        "items": [
-          {
-            "term": "Develop a Trading Plan",
-            "text": "Create a comprehensive trading plan, outlining your goals, risk tolerance, and strategies."
-          },
-          {
-            "term": "Stay Informed",
-            "text": "Keep up to date with market news, analysis, and trends to make informed trading decisions."
-          },
-          {
-            "term": "Manage Risk",
-            "text": "Use risk management techniques, such as stop-loss orders and position sizing, to minimize potential losses."
-          },
-          {
-            "term": "Continuously Learn",
-            "text": "Continuously educate yourself on Forex trading strategies, techniques, and best practices."
-          }
-        ]
-      }
-    ],
-    "conclusion": "Forex trading offers opportunities for individuals and institutions to profit from fluctuations in exchange rates. However, it is essential to understand the risks involved and develop a solid trading strategy to minimize losses and maximize gains."
-  },
-
-  "crypto": {
-    "title": "Cryptocurrency",
-    "tagline": "Digital currency, blockchain and decentralized markets — an educational overview.",
-    "summary": "Cryptocurrency is a digital or virtual currency that utilizes cryptography for security, making it nearly impossible to counterfeit or double-spend. It operates on decentralized networks, employing blockchain technology to facilitate secure and transparent transactions.",
-    "sections": [
-      {
-        "heading": "Key Characteristics",
-        "intro": "",
-        "items": [
-          {
-            "term": "Decentralized",
-            "text": "Cryptocurrencies are not issued or controlled by any central authority, such as governments or financial institutions."
-          },
-          {
-            "term": "Digital",
-            "text": "Cryptocurrencies exist only in digital form, with transactions taking place online."
+            "term": "Blockchain",
+            "text": "A distributed ledger records transactions across a network of computers, providing a transparent and auditable record."
           },
           {
             "term": "Cryptography",
             "text": "Advanced cryptographic techniques secure transactions and control the creation of new units."
           },
           {
-            "term": "Blockchain",
-            "text": "A distributed ledger that records transactions across a network of computers."
+            "term": "Emerging Models",
+            "text": "Decentralised finance (DeFi) and non-fungible tokens (NFTs) continue to extend what the technology supports."
           }
         ]
       },
       {
-        "heading": "Advantages",
-        "intro": "",
-        "items": [
-          {
-            "term": "Cheaper and Faster Money Transfers",
-            "text": "Fast and cost-effective transfers, reducing the need for intermediaries."
-          },
-          {
-            "term": "Decentralized Systems",
-            "text": "Systems that do not collapse at a single point of failure."
-          },
-          {
-            "term": "Transparency",
-            "text": "Transactions are recorded on a public ledger, providing a transparent and auditable record."
-          }
-        ]
-      },
-      {
-        "heading": "Disadvantages",
-        "intro": "",
+        "heading": "Risk and Compliance",
+        "intro": "This asset class carries risks that must be understood before investing:",
         "items": [
           {
             "term": "Price Volatility",
-            "text": "Cryptocurrency prices can be highly volatile, resulting in significant losses if not managed properly."
-          },
-          {
-            "term": "High Energy Consumption",
-            "text": "Mining activities require significant energy consumption, contributing to environmental concerns."
-          },
-          {
-            "term": "Use in Criminal Activities",
-            "text": "Cryptocurrencies have been linked to various criminal activities, including money laundering and terrorist financing."
-          }
-        ]
-      },
-      {
-        "heading": "Key Considerations for Trading",
-        "intro": "Cryptocurrency trading involves speculating on price movements via a Contract for Difference (CFD) trading account, or buying and selling the underlying coins via an exchange.",
-        "items": [
-          {
-            "term": "Volatility",
-            "text": "Cryptocurrency markets are known for their high volatility, with prices fluctuating rapidly."
+            "text": "Prices can be highly volatile, resulting in significant losses if positions are not managed properly."
           },
           {
             "term": "Regulatory Environment",
-            "text": "The regulatory environment is constantly evolving, with new regulations and laws being introduced."
+            "text": "The regulatory environment is evolving continuously, and rules differ substantially between jurisdictions."
           },
           {
             "term": "Security",
-            "text": "Exchanges and wallets are vulnerable to hacking and cyber attacks, highlighting the importance of robust security measures."
+            "text": "Exchanges and wallets are exposed to hacking and cyber attacks, which makes custody arrangements a central decision."
+          },
+          {
+            "term": "Suitability",
+            "text": "Digital assets are not appropriate for every mandate; we will say so when an allocation does not fit a client's objectives."
           }
         ]
       }
     ],
-    "conclusion": "Cryptocurrency is a revolutionary form of digital currency that offers a secure, decentralized, and transparent way to conduct transactions. As the market continues to evolve, it is essential for investors and stakeholders to stay informed and adapt to the changing landscape."
+    "conclusion": "Crypto assets offer a genuinely new source of return and diversification, alongside risks that traditional portfolios have not had to price before. Our role is to bring the same discipline to this asset class that we apply everywhere else: a defined thesis, sized positions, and controls agreed in advance."
   },
 
-  "stockMarket": {
-    "title": "Stock Market",
-    "tagline": "How public markets work — an educational overview.",
-    "summary": "The stock market serves as a critical exchange mechanism, facilitating investors' ability to buy and sell shares in publicly traded companies. While physical locations like the New York Stock Exchange (NYSE) and NASDAQ offices exist, the broader marketplace operates predominantly through electronic transactions between remote participants.",
-    "sections": [
-      {
-        "heading": "Key Components",
-        "intro": "",
-        "items": [
-          {
-            "term": "Stock Exchanges",
-            "text": "Platforms such as NYSE and NASDAQ enable the buying and selling of securities."
-          },
-          {
-            "term": "Publicly Traded Companies",
-            "text": "Companies issue shares to raise capital from investors, promoting business growth and expansion."
-          },
-          {
-            "term": "Investors",
-            "text": "Individuals, institutions, and organizations buy and sell shares, seeking returns on their investments."
-          }
-        ]
-      },
-      {
-        "heading": "Operational Framework",
-        "intro": "",
-        "items": [
-          {
-            "term": "Initial Public Offering (IPO)",
-            "text": "Companies issue shares to the public for the first time, raising capital for growth and development."
-          },
-          {
-            "term": "Trading",
-            "text": "Investors execute buy and sell orders on stock exchanges through electronic means, facilitating market liquidity."
-          },
-          {
-            "term": "Price Discovery",
-            "text": "Market forces determine share prices based on supply and demand dynamics."
-          },
-          {
-            "term": "Market Analysis",
-            "text": "Analysts examine market trends, traded prices, and economic indicators to assess market performance."
-          }
-        ]
-      },
-      {
-        "heading": "Risk and Regulation",
-        "intro": "",
-        "items": [
-          {
-            "term": "Market Volatility",
-            "text": "Share prices can fluctuate rapidly due to various market and economic factors."
-          },
-          {
-            "term": "Investment Risks",
-            "text": "Investors may experience losses, emphasizing the importance of informed decision-making."
-          },
-          {
-            "term": "Regulatory Frameworks",
-            "text": "Stock markets operate within established regulatory frameworks, ensuring fair trading practices and market integrity."
-          }
-        ]
-      }
-    ],
-    "conclusion": "By understanding the stock market's operations, components, and processes, investors and companies can navigate this complex environment effectively, making informed decisions to achieve their financial objectives."
-  },
-
-  "agriculture": {
-    "title": "Agriculture Finance & Investment Farms",
-    "cta": "Request Agriculture Finance Information",
-    "tagline": "Financing sustainable food value chains and agricultural returns.",
-    "summary": "Agriculture finance plays a vital role in empowering farmers, improving food security, and facilitating the development of sustainable food value chains. With global demand for food expected to increase by 70% by 2050, requiring at least $80 billion in annual investments, our work focuses on providing market-based financial services and funding long-term and green investments.",
-    "sections": [
-      {
-        "heading": "Key Messages",
-        "intro": "",
-        "items": [
-          {
-            "term": "Empowering Farmers",
-            "text": "Agriculture finance empowers farmers to increase their wealth, improve their livelihoods, and enhance their resilience to climate change."
-          },
-          {
-            "term": "Developing Sustainable Food Value Chains",
-            "text": "Promoting food security while reducing the environmental impact of farming."
-          },
-          {
-            "term": "Meeting Increasing Demand",
-            "text": "Global demand for food is expected to increase by 70% by 2050, requiring significant investments in agriculture finance."
-          },
-          {
-            "term": "Market-Based Financial Services",
-            "text": "Loans, insurance, and other financial products to support sustainable agriculture and agri-food value chains."
-          },
-          {
-            "term": "Funding Long-Term and Green Investments",
-            "text": "Promoting environmentally friendly practices and reducing the carbon footprint of farming."
-          }
-        ]
-      },
-      {
-        "heading": "Investment Farms",
-        "intro": "An investment farm is an agricultural business operation purchased and operated with the primary intention of generating financial gain. Its characteristics are:",
-        "items": [
-          {
-            "term": "Institutional Ownership",
-            "text": "Owned by institutional investors who do not participate in day-to-day operations."
-          },
-          {
-            "term": "Professional Management",
-            "text": "Managed by experienced farm managers and employees who oversee agricultural operations."
-          },
-          {
-            "term": "Financial Focus",
-            "text": "The primary objective is to generate financial returns through agricultural production and sales."
-          }
-        ]
-      },
-      {
-        "heading": "Benefits and Risks",
-        "intro": "",
-        "items": [
-          {
-            "term": "Diversification",
-            "text": "A unique opportunity to diversify portfolios and reduce reliance on traditional assets."
-          },
-          {
-            "term": "Long-Term Appreciation",
-            "text": "Agricultural land and assets can appreciate in value over time."
-          },
-          {
-            "term": "Market Volatility",
-            "text": "Agricultural markets can be volatile, with commodity prices and weather conditions affecting profitability."
-          },
-          {
-            "term": "Operational and Regulatory Risks",
-            "text": "Crop failures, livestock disease, equipment breakdowns, and compliance with environmental and labor laws."
-          }
-        ]
-      }
-    ],
-    "conclusion": "Agriculture finance is essential in meeting the increasing demand for food, improving food security, and promoting sustainable agriculture practices. Our work focuses on providing market-based financial services and funding long-term and green investments to support sustainable agri-food value chains."
-  },
-
-  "managementConsulting": {
-    "title": "Management Consulting",
-    "cta": "Request a Consulting Engagement",
-    "tagline": "Expert guidance for business excellence.",
-    "summary": "Our Management Consulting services are designed to help businesses achieve excellence in performance, efficiency, and profitability. Our team of experienced consultants provides expert guidance, objective advice, and customized solutions to address unique business challenges and opportunities.",
+  "accountingFinance": {
+    "title": "Accounting & Finance",
+    "cta": "Request Accounting & Finance Support",
+    "tagline": "Bookkeeping, reporting and financial control for growing organisations.",
+    "summary": "Accounting & Finance covers the day-to-day financial machinery of a business: keeping the books accurate, closing the period on time, meeting tax obligations, and turning the resulting figures into management information that supports real decisions. We work with companies that have outgrown improvised bookkeeping but do not yet need a full in-house finance department.",
     "sections": [
       {
         "heading": "Our Services",
-        "intro": "Our management consulting services include:",
+        "intro": "Our accounting and finance services include:",
         "items": [
           {
-            "term": "Strategy Consulting",
-            "text": "Developing and implementing business strategies to drive growth and profitability."
+            "term": "Bookkeeping",
+            "text": "Maintaining accurate, up-to-date records of every transaction, reconciled against bank and supplier statements."
           },
           {
-            "term": "Operations Consulting",
-            "text": "Improving operational efficiency, reducing costs, and enhancing productivity."
+            "term": "Financial Statements",
+            "text": "Preparing balance sheets, income statements and cash flow statements to the applicable reporting standard."
           },
           {
-            "term": "Human Resources Consulting",
-            "text": "Developing and implementing HR strategies to attract, retain, and develop talent."
+            "term": "Tax Planning, Preparation and Compliance",
+            "text": "Meeting filing obligations on time, and structuring activity to minimise liabilities within the rules."
           },
           {
-            "term": "IT Consulting",
-            "text": "Providing expert advice on IT strategy, implementation, and management."
+            "term": "Payroll",
+            "text": "Processing payroll, contributions and related declarations."
           },
           {
-            "term": "Change Management Consulting",
-            "text": "Helping businesses navigate and implement organizational change."
+            "term": "Management Reporting",
+            "text": "Monthly reporting on margins, cash position and budget variance, built for the people who make decisions."
           }
         ]
       },
       {
         "heading": "Our Process",
-        "intro": "",
+        "intro": "Each engagement follows the same sequence:",
         "items": [
           {
             "term": "Needs Assessment",
-            "text": "Identifying business needs and defining project scope."
+            "text": "Reviewing existing records, systems and reporting obligations to establish where things stand."
           },
           {
-            "term": "Data Collection and Analysis",
-            "text": "Gathering and analyzing data to inform recommendations."
+            "term": "Set-Up",
+            "text": "Putting the chart of accounts, tooling and monthly calendar in place."
           },
           {
-            "term": "Recommendations and Implementation",
-            "text": "Developing and implementing tailored solutions."
+            "term": "Ongoing Execution",
+            "text": "Running the bookkeeping, closing each period, and filing what is due."
           },
           {
-            "term": "Monitoring and Evaluation",
-            "text": "Tracking progress and evaluating results."
-          }
-        ]
-      },
-      {
-        "heading": "What You Gain",
-        "intro": "By working with our consulting team, businesses can:",
-        "items": [
-          {
-            "term": "Access Expertise",
-            "text": "Leverage the expertise and knowledge of experienced consultants."
-          },
-          {
-            "term": "Gain Objectivity and Fresh Perspective",
-            "text": "Receive a fresh and objective perspective on business challenges."
-          },
-          {
-            "term": "Receive Customized Solutions",
-            "text": "Get tailored solutions that address specific business needs."
-          },
-          {
-            "term": "Benefit from Implementation Support",
-            "text": "Receive support and guidance during the implementation process."
-          }
-        ]
-      }
-    ],
-    "conclusion": "Our Management Consulting services help businesses achieve excellence in performance, efficiency, and profitability. By working with our experienced consultants, businesses gain expert guidance, objective advice, and customized solutions to address their unique challenges and opportunities."
-  },
-
-  "closingManagement": {
-    "title": "Closing Management",
-    "cta": "Request Closing Management Support",
-    "tagline": "A comprehensive approach to seamless real estate transactions.",
-    "summary": "Closing Management is a critical component of the real estate transaction process, requiring meticulous attention to detail, effective communication, and a deep understanding of regulatory requirements. Our comprehensive approach ensures a seamless, efficient, and accurate transfer of ownership, minimizing risks and enhancing customer satisfaction.",
-    "sections": [
-      {
-        "heading": "Why It Matters",
-        "intro": "Effective closing management is crucial to:",
-        "items": [
-          {
-            "term": "Ensure Timely Completion",
-            "text": "A smooth and efficient closing process ensures that the transaction is completed on time."
-          },
-          {
-            "term": "Maintain Accuracy and Compliance",
-            "text": "All documents are accurate, complete, and compliant with regulatory requirements."
-          },
-          {
-            "term": "Mitigate Risk",
-            "text": "Proper closing management minimizes the risk of errors, delays, and disputes."
-          },
-          {
-            "term": "Enhance Customer Experience",
-            "text": "A well-managed closing provides a positive experience for buyers, sellers, and other stakeholders."
-          }
-        ]
-      },
-      {
-        "heading": "Key Components",
-        "intro": "Our comprehensive closing management process includes:",
-        "items": [
-          {
-            "term": "Pre-Closing Preparation",
-            "text": "Preparation of documents, title searches, and coordination with parties involved."
-          },
-          {
-            "term": "Document Review and Preparation",
-            "text": "Review and preparation of closing documents, including deeds, mortgages, and settlement statements."
-          },
-          {
-            "term": "Closing Coordination",
-            "text": "Coordination of the closing process, including scheduling, funding, and disbursement."
-          },
-          {
-            "term": "Post-Closing Follow-up",
-            "text": "Follow-up to ensure that all documents are recorded and finalized."
+            "term": "Review and Advice",
+            "text": "Discussing the numbers with you periodically, and acting on what they show."
           }
         ]
       },
       {
         "heading": "Benefits",
-        "intro": "",
+        "intro": "Working with our team gives you:",
         "items": [
           {
-            "term": "Increased Efficiency",
-            "text": "A streamlined closing process reduces delays and costs."
+            "term": "Accuracy",
+            "text": "Books that reconcile, and statements you can present to a bank, an investor or an auditor without rework."
           },
           {
-            "term": "Improved Accuracy",
-            "text": "Reduced risk of errors and discrepancies."
+            "term": "Timeliness",
+            "text": "Periods closed and obligations met on schedule, without the end-of-year scramble."
           },
           {
-            "term": "Enhanced Customer Satisfaction",
-            "text": "A positive experience for buyers, sellers, and other stakeholders."
+            "term": "Visibility",
+            "text": "A clear monthly view of margins and cash, rather than figures that only arrive once a year."
           },
           {
-            "term": "Reduced Risk",
-            "text": "Minimized risk of disputes, delays, and regulatory issues."
+            "term": "Cost Control",
+            "text": "Professional finance capability without the fixed cost of an in-house department."
+          }
+        ]
+      },
+      {
+        "heading": "Who We Work With",
+        "intro": "Our services are designed for:",
+        "items": [
+          {
+            "term": "Growing Companies",
+            "text": "Businesses whose transaction volume has outgrown informal bookkeeping."
+          },
+          {
+            "term": "Portfolio Companies",
+            "text": "Companies backed by investors who expect consistent, comparable reporting."
+          },
+          {
+            "term": "Private Clients",
+            "text": "Individuals and family structures requiring accounting alongside wealth management."
           }
         ]
       }
     ],
-    "conclusion": "Our comprehensive approach to closing management ensures a seamless, efficient, and accurate transfer of ownership. By leveraging our expertise and best practices, our clients minimize risks, enhance customer satisfaction, and ensure timely completion of their real estate transactions."
+    "conclusion": "Accurate books and timely reporting are the foundation every other financial decision rests on. Our Accounting & Finance team keeps that foundation solid, so that management, investors and advisors are all working from the same reliable figures."
   }
 }
