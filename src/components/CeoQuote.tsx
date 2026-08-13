@@ -13,7 +13,7 @@ import { site } from "@/content/site";
  * se lit pas seul. D'où un `alt` qui nomme la personne plutôt que de décrire
  * la scène.
  */
-export function CeoQuote({ showTagline = true }: { showTagline?: boolean }) {
+export function CeoQuote() {
   const t = useTranslations("home.quote");
 
   return (
@@ -43,16 +43,20 @@ export function CeoQuote({ showTagline = true }: { showTagline?: boolean }) {
           <blockquote className="font-display text-xl leading-relaxed text-bright md:text-2xl">
             “{t("text")}”
           </blockquote>
-          <figcaption className="mt-8 text-sm">
-            <span className="font-medium text-data">{t("author")}</span>
-            <span className="text-muted"> — {t("role")}</span>
+          {/* La déclinaison « flotte » porte déjà le slogan et la signature :
+              elle remplace donc l'attribution et le slogan composés en texte.
+              Son `alt` restitue les deux, faute de quoi l'attribution de la
+              citation disparaîtrait pour un lecteur d'écran. */}
+          <figcaption className="mt-8">
+            <Image
+              src={site.fleet}
+              alt={`“${site.tagline}” — ${t("author")}, ${t("role")}`}
+              width={699}
+              height={350}
+              sizes="(min-width: 768px) 26rem, 20rem"
+              className="h-auto w-full max-w-md"
+            />
           </figcaption>
-
-          {showTagline && (
-            <p className="mt-10 font-display text-2xl italic text-brand-hot">
-              “{site.tagline}”
-            </p>
-          )}
         </div>
       </figure>
     </div>

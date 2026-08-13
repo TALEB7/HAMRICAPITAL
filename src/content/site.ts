@@ -10,6 +10,12 @@ export const site = {
   logo: "/brand/hamri-capital-logo.png",
   /** Portrait du CEO, recadré et compressé depuis logo/ceo-omar-hamri.png. */
   ceoPhoto: "/brand/ceo-omar-hamri.webp",
+  /**
+   * Déclinaison « flotte » : les quatre bateaux, le slogan et la signature du
+   * CEO. Dérivée de logo/image.png, dont le fond blanc a été rendu transparent
+   * — aucune couleur de la marque n'a été modifiée.
+   */
+  fleet: "/brand/hamri-fleet.webp",
 } as const;
 
 /** Connect With Us — le footer masque toute entrée dont l'URL est vide. */
